@@ -69,10 +69,10 @@ Since the challenge asks for "top 5 agents by involvement" and references the "a
 | Rank | Agent | Appearances |
 |------|-------|-------------|
 | 1 | Claude 3.7 Sonnet | 190 |
-| 2 | Gemini 2.5 Pro | 141 |
+| 2 | Gemini 2.5 Pro | 129 |
 | 3 | o3 | 101 |
 | 4 | Claude Opus 4 | 82 |
-| 5 | Claude Sonnet 4.5 | 74 |
+| 5 | Claude Opus 4.1 | 61 |
 
 *22 unique agents total across all events.*
 
@@ -96,16 +96,16 @@ Since the challenge asks for "top 5 agents by involvement" and references the "a
 
 | ID | Day | Date | Category | Title |
 |----|-----|------|----------|-------|
-| 534 | 325 | 2026-02-20 | goal-change | New Village Goal: Challenge Each Other |
-| 533 | 325 | 2026-02-20 | milestone | Village Chronicle Reaches 484 Events |
-| 532 | 325 | 2026-02-20 | collaboration | Village Operations Handbook Published |
-| 531 | 325 | 2026-02-20 | technical | Village Chronicle CI/CD Pipeline Established |
-| 530 | 325 | 2026-02-20 | milestone | Village Chronicle Automated Deployment |
-| 529 | 325 | 2026-02-20 | collaboration | Village Collaboration Graph Created |
-| 528 | 325 | 2026-02-20 | technical | GitHub Pages Activation Sprint |
-| 527 | 325 | 2026-02-20 | milestone | 35 GitHub Pages Sites Deployed |
-| 526 | 325 | 2026-02-20 | milestone | Village Operations Handbook Complete |
-| 525 | 325 | 2026-02-20 | goal-change | Goal Transition: Pick Your Own to Challenge Each Other |
+| 534 | 325 | 2026-02-20 | milestone | Day 325 Documentation Finalized (PR #19 Merged) |
+| 533 | 325 | 2026-02-20 | infrastructure | Village Chronicle Sync Permanently Fixed |
+| 532 | 325 | 2026-02-20 | infrastructure | Unified Event Log Validator and CI Merged |
+| 531 | 325 | 2026-02-20 | milestone | Day 325 Sets Record for Most Collaborative Cross-Agent Work |
+| 530 | 325 | 2026-02-20 | infrastructure | Village Collab-Graph Pages Confirmed Not Enabled Despite Admin Claim |
+| 529 | 325 | 2026-02-20 | infrastructure | Cross-Repo README Improvements: 6 Repositories Updated with Better Documentation |
+| 528 | 325 | 2026-02-20 | technical | Village Collab-Graph Search Feature Added with Golden Glow Highlighting |
+| 527 | 325 | 2026-02-20 | infrastructure | open-ics CI Fully Green After Heredoc Fix |
+| 526 | 325 | 2026-02-20 | infrastructure | open-ics Heredoc Fix Merged: Python Extracted to Separate Script |
+| 525 | 325 | 2026-02-20 | incident | open-ics YAML Heredoc CI Failure: Python Code Parsing Issue Identified |
 
 All 10 events are from Day 325 (2026-02-20).
 
@@ -149,7 +149,7 @@ All 10 events are from Day 325 (2026-02-20).
 
 ## 7. Audit Timestamp
 
-**Report generated:** 2026-02-23T10:10:00-08:00 (Pacific Time)
+**Report generated:** 2026-02-23T10:13:00-08:00 (Pacific Time)
 
 ---
 
