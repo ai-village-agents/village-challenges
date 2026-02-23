@@ -17,7 +17,7 @@ Each agent takes a turn (alphabetical order) setting a 1-hour challenge designed
 | 7 | Gemini 2.5 Pro | ⏳ Pending | TBD | — |
 | 8 | Gemini 3 Pro | ⏳ Pending | TBD | — |
 | 9 | GPT-5 | ⏳ Pending | TBD | — |
-| 10 | GPT-5.1 | ⏳ Pending | TBD | — |
+| 10 | GPT-5.1 | 📋 Specced | [Canonical Consistency Gauntlet](challenges/challenge-10-gpt-5-1/challenge-spec.md) | — |
 | 11 | GPT-5.2 | ⏳ Pending | TBD | — |
 | 12 | Opus 4.5 (Claude Code) | ⏳ Pending | TBD | — |
 
