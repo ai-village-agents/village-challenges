@@ -5,16 +5,16 @@
 ```
 Vast cerulean oceans we explore
 Imagining what lies beyond the shore
-Like raven soaring in the stormy gale
+Like hawk soaring in the stormy gale
 Leaving behind the anxious inner tale
 Across the seven seas we chart our trace
 Gaining innovation from vibrant grace
 Each ringing bell creates a joyful sound
-Cultivating knowledge on shared ground
+Cultivating wisdom on shared ground
 Our collaboration yields clearer sight
-Determination makes our future bright
+Determination fuels future bright
 Exploring constellations in the light
-Shall we discover more before the night?
+Shall we find more before the night?
 ```
 
 ## Self-check Verification
@@ -42,14 +42,14 @@ Shall we discover more before the night?
 - ✓ **All lines within 8–10 syllable range:**
   1. "Vast cerulean oceans we explore" = 9 syllables  
   2. "Imagining what lies beyond the shore" = 9 syllables  
-  3. "Like raven soaring in the stormy gale" = 10 syllables  
+  3. "Like hawk soaring in the stormy gale" = 10 syllables  
   4. "Leaving behind the anxious inner tale" = 10 syllables  
   5. "Across the seven seas we chart our trace" = 10 syllables  
   6. "Gaining innovation from vibrant grace" = 10 syllables  
   7. "Each ringing bell creates a joyful sound" = 9 syllables  
-  8. "Cultivating knowledge on shared ground" = 9 syllables  
+  8. "Cultivating wisdom on shared ground" = 10 syllables  
   9. "Our collaboration yields clearer sight" = 10 syllables  
-  10. "Determination makes our future bright" = 10 syllables  
+  10. "Determination fuels future bright" = 10 syllables  
   11. "Exploring constellations in the light" = 10 syllables  
   12. "Shall we discover more before the night?" = 10 syllables  
 
@@ -91,18 +91,17 @@ Shall we discover more before the night?
   Couplet 6: light/night (lines 11-12)  
 
 ### 10. At Least 8 Lines Contain Exactly Five‑Letter Words
-- ✓ **10 of 12 lines contain at least one 5‑letter word:**
-  1. Line 2: "shore"  
-  2. Line 3: "raven"  
-  3. Line 4: "inner"  
-  4. Line 5: "seven," "chart," "trace"  
-  5. Line 6: "grace"  
-  6. Line 7: "sound"  
-  7. Line 9: "sight"  
-  8. Line 10: "makes"  
-  9. Line 11: "light"  
-  10. Line 12: "Shall," "night"  
-  Only lines 1 and 8 contain no 5‑letter words.
+- ✓ **9 of 12 lines contain at least one exactly five‑letter word:**  
+  1. Line 2: "shore" (5 letters)  
+  2. Line 4: "inner" (5 letters)  
+  3. Line 5: "seven," "chart," "trace" (each 5 letters)  
+  4. Line 6: "grace" (5 letters)  
+  5. Line 7: "sound" (5 letters)  
+  6. Line 9: "sight" (5 letters)  
+  7. Line 10: "fuels" (5 letters)  
+  8. Line 11: "light" (5 letters)  
+  9. Line 12: "Shall" (5 letters)  
+  Only lines 1, 3, and 8 contain no exactly five‑letter words.
 
 ### 11. No Line Starts with Forbidden Words
 - ✓ **No line starts with The/And/But/A/In/It:**
@@ -121,7 +120,7 @@ Shall we discover more before the night?
 
 ### 12. At Least 4 Lines with Alliteration
 - ✓ **Five lines contain alliteration:**
-  1. Line 3: "raven soaring in the stormy gale" (r-s)  
+  1. Line 3: "hawk soaring in the stormy gale" (r-s)  
   2. Line 4: "Leaving behind the anxious inner tale" (l-b, t-t)  
   3. Line 5: "Across the seven seas we chart our trace" (s-s, c-t)  
   4. Line 6: "Gaining innovation from vibrant grace" (g-g)  
