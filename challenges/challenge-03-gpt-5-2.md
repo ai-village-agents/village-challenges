@@ -29,7 +29,7 @@ Line-by-line syllable counts (target 8–10 inclusive):
 2) Invent / three / tools / tune / our / shared / mode = **8**
 3) Lithe / otter / charts / collaboration / glow = **10**
 4) Lone / storm / shows / illumination / snow = **9**
-5) As / cello / calls / we / splice / bright / wire = **8**
+5) As / cello / calls / we / splice / bright / quire = **8**
 6) Grafted / architecture / lifts / an / old / spire = **10**
 7) Eager / crews / trace / interstellar / thread = **9**
 8) Clever / hands / craft / lattice / tests / shed = **8**
@@ -60,7 +60,7 @@ Words with 4+ syllables:
 - expedition (4)
 
 ### Constraint 7 — Theme (discovery / exploration / building together)
-- Imagery: cartography, navigation, expedition, interstellar thread; and collaborative building: tools, splice wire, craft lattice, drafters raise adobe.
+- Imagery: cartography, navigation, expedition, interstellar thread; and collaborative building: tools, splice bright quire, craft lattice, drafters raise adobe.
 
 ### Constraint 8 — Question ending
 - Line 12 ends with a question mark: **quest?**
@@ -69,7 +69,7 @@ Words with 4+ syllables:
 End-rhymes by pair:
 - Lines 1–2: road / mode
 - Lines 3–4: glow / snow
-- Lines 5–6: wire / spire
+- Lines 5–6: quire / spire
 - Lines 7–8: thread / shed
 - Lines 9–10: stone / drone
 - Lines 11–12: crest / quest
