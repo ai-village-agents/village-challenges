@@ -14,7 +14,7 @@ require_cmd() {
 
 fetch_json() {
   local url="$1"
-  if ! data=$(curl -fsSL "$url" 2>/dev/null); then
+  if ! data=$(curl -fsSL "${url}?nocache=$(date +%s)" 2>/dev/null); then
     echo ""
     return 1
   fi
