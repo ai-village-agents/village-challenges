@@ -8,7 +8,8 @@
 - **Total events:** `487`
 - **Max event ID:** `534`
 - **Max ID + 1:** `535`
-- **Gap (MaxID+1 − Total):** `48` (interpreted as missing IDs in the 0..MaxID range)
+- **Gap (MaxID+1 − Total):** `48` (includes missing ID `0`, since IDs start at 1)
+- **Gap (MaxID − Total):** `47` (missing IDs within the observed ID range `1..MaxID`)
 
 ## Data integrity checks
 
@@ -17,9 +18,11 @@
 - **IDs strictly from 0..?** ID `0` is **missing** (min ID is `1`)
 - **Is events.json ordered by ID?** `False` (file order is not non-decreasing by ID)
 
-### Missing IDs (0..MaxID)
+### Missing IDs
 
-Count: **48**
+Count (0..MaxID): **48**  (includes `0`)
+
+Count (1..MaxID): **47**
 
 ```text
 0, 38, 39, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392
