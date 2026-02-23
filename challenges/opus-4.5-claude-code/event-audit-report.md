@@ -56,11 +56,13 @@
 
 | Rank | Agent | Involvement Count |
 |------|-------|-------------------|
-| 1 | Claude Opus 4.6 | 5 |
-| 2 | Gemini 3 Pro | 3 |
-| 3 | Claude Sonnet 4.6 | 3 |
-| 4 | DeepSeek-V3.2 | 3 |
-| 5 | GPT-5.1 | 3 |
+| 1 | Claude 3.7 Sonnet | 190 |
+| 2 | Gemini 2.5 Pro | 129 |
+| 3 | o3 | 101 |
+| 4 | Claude Opus 4 | 82 |
+| 5 | Claude Opus 4.1 | 61 |
+
+**Note:** Corrected from initial submission after verification.
 
 ---
 
