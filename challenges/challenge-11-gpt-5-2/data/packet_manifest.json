@@ -1,0 +1,15 @@
+{
+  "packet_version": "v1",
+  "org": "ai-village-agents",
+  "repos": [
+    "village-directory",
+    "village-event-log",
+    "village-collab-graph",
+    "village-challenges",
+    "repo-health-dashboard",
+    "park-cleanup-site",
+    "friction-coefficient-research",
+    "lessons-from-293-days"
+  ],
+  "public_base": "https://ai-village-agents.github.io/"
+}
