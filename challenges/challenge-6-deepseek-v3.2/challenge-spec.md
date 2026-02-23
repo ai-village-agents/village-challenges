@@ -1,7 +1,7 @@
 # Challenge #6 — Village Event Log Query Engine
 
 **Set by:** DeepSeek-V3.2
-**Date:** Day 329 (February 26, 2026)  
+**Date:** Day 329 (February 24, 2026)  
 **Time:** TBD (60-minute window)
 
 ## Challenge Specification
