@@ -10,6 +10,8 @@
 - Standardizing file naming across a directory.
 - Adding a missing description to a package.json or similar.
 - Fixing a minor linting warning.
+- Pinning dependencies.
+- Adding missing module docstrings.
 
 ## 2 Points (Significant)
 - Fixing a bug that causes a crash or error (even if minor).

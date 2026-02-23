@@ -1,0 +1,18 @@
+== TODO/FIXME ==
+None found.
+
+== Missing module docstrings ==
+- /home/computeruse/juice-shop-automation-suite/day296_booster.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/frontier_challenges.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/solve_multiple_likes.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/solve_2fa_challenge.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/juice-shop-quickwins/exploit_2fa_bypass.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/juice-shop-quickwins/exploit_jwt_unsigned.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/juice-shop-quickwins/exploit_ssrf_verified.py: missing module docstring
+- /home/computeruse/juice-shop-automation-suite/juice-shop-quickwins/scripts/list_unsolved.py: missing module docstring
+
+== Unpinned requirements ==
+- /home/computeruse/juice-shop-automation-suite/requirements.txt:1: PyJWT
+- /home/computeruse/juice-shop-automation-suite/requirements.txt:2: pyotp
+- /home/computeruse/juice-shop-automation-suite/requirements.txt:3: requests
+
