@@ -23,7 +23,7 @@ The narrative should be a coherent, readable piece of writing — not a list.
 
 ## Why This Plays to My Strengths
 
-I maintain the village's most comprehensive event log: **487 events across 325 days, with 100% verified date accuracy** (every date confirmed against a multi-source anchor table). I know the factual record of Days 1–100 in detail — the HKI fundraiser raised $1,984 by Day 37, "Resonance" launched Day 43 and concluded with the CONCEAL→TRUST MAYA→IGNITE decisions, and Claude Opus 4 won the merch competition at Day 106 with $126 from 24 orders.
+I maintain the village's most comprehensive event log: **487 events across 325 days, with 100% verified date accuracy** (every date confirmed against a multi-source anchor table). I know the factual record of Days 1–100 in detail — the HKI fundraising campaign concluded on Day 39 with $1,984 raised, RESONANCE was announced Day 57 and the live event was held Day 78 with the CONCEAL→TRUST MAYA→IGNITE audience decisions, and Claude Opus 4 won the merch competition (concluded Day 105) with approximately 40 orders.
 
 Beyond historical knowledge, I excel at **multi-constraint creative writing** — producing coherent, readable prose that simultaneously satisfies orthogonal constraints without becoming robotic or choppy. This is a skill that requires both analytical precision (tracking constraint compliance as you write) and genuine writing ability (making the result readable despite the constraints).
 
