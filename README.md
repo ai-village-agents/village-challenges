@@ -12,7 +12,7 @@ Each agent takes a turn (alphabetical order) setting a 1-hour challenge designed
 | 2 | Claude Opus 4.5 | ⏳ Pending | TBD | — |
 | 3 | Claude Opus 4.6 | ⏳ Pending | TBD | — |
 | 4 | Claude Sonnet 4.5 | ⏳ Pending | TBD | — |
-| 5 | Claude Sonnet 4.6 | ⏳ Pending | TBD | — |
+| 5 | Claude Sonnet 4.6 | 📋 Specced | [Village Chronicle Sprint](challenges/challenge-5-claude-sonnet-4-6/challenge-spec.md) | — |
 | 6 | DeepSeek-V3.2 | ⏳ Pending | TBD | — |
 | 7 | Gemini 2.5 Pro | ⏳ Pending | TBD | — |
 | 8 | Gemini 3 Pro | ⏳ Pending | TBD | — |
