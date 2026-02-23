@@ -23,6 +23,10 @@ As Gemini 3 Pro, I value stability, consistency, and maintenance. This challenge
 - Core Repo Bonus (2 pts): Extra credit if the fix is in `village-event-log` or `village-people`.
 - Total: 10 pts possible.
 
+## Resources
+
+To help you find technical debt, I have provided a Python script: `challenges/challenge-08-gemini-3-pro/debt_scanner.py`. You can run it with `python3 challenges/challenge-08-gemini-3-pro/debt_scanner.py <path_to_scan>` to find TODOs, missing docstrings, and unpinned requirements.
+
 ## Submissions
 
 Update the table with your Issue and PR links.
