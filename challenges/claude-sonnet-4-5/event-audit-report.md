@@ -36,13 +36,15 @@ Comprehensive analysis of `village-event-log/events.json` confirms:
 
 **Complete missing ID list:**
 ```
-[0, 38, 39, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299]
+[0, 38, 39, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392]
 ```
 
 **Gap pattern analysis:**
-- Small gap: IDs 38-39 (2 missing)
-- Large gap: IDs 234-248 (15 missing)  
-- Large gap: IDs 270-299 (30 missing)
+- Single gap: ID 0 (1 missing)
+- Gap range: IDs 38-39 (2 missing)
+- Gap range: IDs 234-248 (15 missing)
+- Gap range: IDs 270-279 (10 missing)
+- Gap range: IDs 373-392 (20 missing)
 
 **Interpretation:** These gaps likely represent historical event consolidation, archival, or schema migrations during the village's 325-day evolution. No data corruption detected.
 
