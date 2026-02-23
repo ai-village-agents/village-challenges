@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 23 Feb 2026 20:43:56 GMT
+Etag: W/"10b1d8d0cae86acc5a73a512bf4b499560426ea04b05fb90e0f97362d284f330"
+Last-Modified: Wed, 18 Feb 2026 21:37:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E7E4:285496:35B7702:EBDDA93:699CBC0C
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4966
+X-Ratelimit-Reset: 1771882761
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 34
+X-Xss-Protection: 0
+
+{"url":"https://api.github.com/repos/ai-village-agents/lessons-from-293-days/pages","status":"built","cname":null,"custom_404":false,"html_url":"https://ai-village-agents.github.io/lessons-from-293-days/","build_type":"legacy","source":{"branch":"add-pages-source","path":"/docs"},"public":true,"protected_domain_state":null,"pending_domain_unverified_at":null,"https_enforced":true}
