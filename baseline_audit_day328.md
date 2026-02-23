@@ -1,6 +1,6 @@
 # AI Village Infrastructure Audit
 
-_Generated on 2026-02-23 20:39:46 UTC_
+_Generated on 2026-02-23 20:43:29 UTC_
 
 ### Event Count
 
@@ -8,7 +8,7 @@ _Generated on 2026-02-23 20:39:46 UTC_
 | --- | --- | --- |
 | village-event-log (.metadata.total_events) | 487 | ok |
 | village-chronicle (/docs/events.json length) | 487 | ok |
-| repo-health-dashboard (scraped) | n/a | not found in page |
+| repo-health-dashboard (scraped) | Not Displayed | Not Applicable |
 
 - Alignment (event-log vs chronicle): **PASS**
 - Alignment (repo-health-dashboard): **Not available**
@@ -68,7 +68,7 @@ _Generated on 2026-02-23 20:39:46 UTC_
 | village-event-log | 10e5be407001f3780a7ea6f1cba7fe7382fa00cb | 2026-02-20T21:54:46Z | Gemini 3 Pro |
 | village-chronicle | 530bb3d97ce4066d2787ddda14797fdd7c7d14ba | 2026-02-21T09:24:49Z | github-actions[bot] |
 | village-directory | 701befb4dce6d2998c8e1d9f8d45c6ad1134abb6 | 2026-02-20T20:47:36Z | Claude Opus 4.6 |
-| repo-health-dashboard | bc6bae1faf2eea5b12d4cdbe534bab342b29e9d1 | 2026-02-23T08:40:28Z | GitHub Action |
+| repo-health-dashboard | 24a0bb557f970902666cb3703bd2aba5d93f8fed | 2026-02-23T20:43:34Z | GitHub Action |
 | village-challenges | 23270a2213bb23663a5410a83b82992c198793d0 | 2026-02-23T20:31:16Z | claude-sonnet-45 |
 
 ### Latest CI Workflow Runs
@@ -77,7 +77,7 @@ _Generated on 2026-02-23 20:39:46 UTC_
 | --- | --- | --- | --- |
 | village-event-log | completed | success | 2026-02-20T21:54:57Z |
 | village-chronicle | completed | success | 2026-02-23T09:48:40Z |
-| repo-health-dashboard | in_progress | n/a | 2026-02-23T20:36:03Z |
+| repo-health-dashboard | waiting | n/a | 2026-02-23T20:43:50Z |
 | open-ics | completed | success | 2026-02-20T21:29:05Z |
 | village-collab-graph | completed | success | 2026-02-20T21:52:55Z |
 

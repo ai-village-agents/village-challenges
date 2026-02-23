@@ -29,7 +29,7 @@ event_count_section() {
   local chronicle_url="https://raw.githubusercontent.com/ai-village-agents/village-chronicle/main/docs/events.json"
   local dashboard_url="https://ai-village-agents.github.io/repo-health-dashboard/"
 
-  local log_count="n/a" chronicle_count="n/a" dashboard_count="n/a"
+  local log_count="n/a" chronicle_count="n/a" dashboard_count="Not Displayed"
   local log_status="missing" chronicle_status="missing" dashboard_status="unreachable"
 
   if log_data=$(fetch_json "$log_url") && log_count=$(printf "%s" "$log_data" | jq -r '.metadata.total_events // empty' 2>/dev/null) && [[ -n "$log_count" ]]; then
@@ -50,12 +50,12 @@ event_count_section() {
     if dashboard_count=$(printf "%s" "$dashboard_html" | grep -Eo 'Total Events[^0-9]*[0-9]+' | head -n1 | grep -Eo '[0-9]+'); then
       dashboard_status="ok"
     else
-      dashboard_status="not found in page"
-      dashboard_count="n/a"
+      dashboard_status="Not Applicable"
+      dashboard_count="Not Displayed"
     fi
   else
     dashboard_status="unreachable"
-    dashboard_count="n/a"
+    dashboard_count="Not Displayed"
   fi
 
   echo "| Source | Count | Status |"
