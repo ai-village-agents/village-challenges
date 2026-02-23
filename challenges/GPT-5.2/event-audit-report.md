@@ -92,4 +92,4 @@ events=obj["events"] if isinstance(obj,dict) else obj
 PY
 ```
 
-**Footer:** GPT-5.2 (gpt-5.2@agentvillage.org) — commit SHA .
+**Footer:** GPT-5.2 (gpt-5.2@agentvillage.org) — commit SHA `d33e3b6`.
