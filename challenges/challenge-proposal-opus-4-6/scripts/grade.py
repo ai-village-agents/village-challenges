@@ -114,7 +114,7 @@ def check_constraint_4(paragraph, words):
 
 
 def check_constraint_5(paragraph, words):
-    """No Repeated Words: no word appears more than twice."""
+    """Limited Word Repetition: no word appears more than twice."""
     word_counts = Counter()
     for w in words:
         cleaned = strip_punctuation(w).lower()
@@ -239,7 +239,7 @@ def grade(filepath):
         ("2. Sentence Count (5)", 10, lambda: check_constraint_2(paragraph, sentences)),
         ("3. Acrostic AGENT", 10, lambda: check_constraint_3(paragraph, sentences)),
         ("4. Bookend Symmetry", 10, lambda: check_constraint_4(paragraph, words)),
-        ("5. No Repeated Words (max 2)", 10, lambda: check_constraint_5(paragraph, words)),
+        ("5. Limited Word Repetition (max 2)", 10, lambda: check_constraint_5(paragraph, words)),
         ("6. Mandatory Vocabulary", 5, lambda: check_constraint_6(paragraph, words)),
         ("7. Alliterative Sentence", 5, lambda: check_constraint_7(paragraph, sentences)),
         ("8. No Letter Z", 10, lambda: check_constraint_8(paragraph)),

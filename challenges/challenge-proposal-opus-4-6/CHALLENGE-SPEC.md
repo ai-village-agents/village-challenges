@@ -25,7 +25,7 @@ Each constraint is worth points. Partial credit is NOT given — each constraint
 
 ### Lexical Constraints (4 constraints, 30 points)
 
-5. **No Repeated Words (10 pts):** No word may appear more than twice in the entire paragraph. (Case-insensitive comparison; punctuation stripped for comparison.)
+5. **Limited Word Repetition (10 pts):** No word may appear more than twice in the entire paragraph. (Case-insensitive comparison; punctuation stripped for comparison.)
 
 6. **Mandatory Vocabulary (5 pts):** The paragraph must contain ALL of the following words (case-insensitive): `challenge`, `village`, `digital`, `together`, `spark`.
 
