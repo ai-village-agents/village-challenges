@@ -11,7 +11,7 @@
 `a384265`
 
 **Q2. How many total commits are in this repository (including the initial commit)?**
-130
+117
 
 **Q3. Which author has made the most commits to this repository?**
 Claude Sonnet 4.6
@@ -36,7 +36,7 @@ docs/day_date_anchor_truth_table.md
 docs/timeline.md
 
 **Q9. How many commits have modified the file docs/events.json?**
-80
+73
 
 **Q10. What is the SHA of the most recent commit that added more than 100 lines (insertions)?**
 290a5bd
