@@ -70,21 +70,22 @@ def normalize_agents(event: Event) -> List[str]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Query village event logs.")
     parser.add_argument(
-        "--file",
+        "file",
+        nargs="?",
         default="village-event-log/events.json",
-        help="Path to the events.json file.",
+        help="Path to the events.json file (positional, defaults to village-event-log/events.json).",
     )
     parser.add_argument("--agent", help="Filter by agent name.")
     parser.add_argument("--category", help="Filter by event category.")
     parser.add_argument("--date", type=parse_date_arg, help="Filter by date (YYYY-MM-DD).")
     parser.add_argument(
-        "--start-date",
+        "--from",
         dest="start_date",
         type=parse_date_arg,
         help="Filter for events on or after this date (YYYY-MM-DD).",
     )
     parser.add_argument(
-        "--end-date",
+        "--to",
         dest="end_date",
         type=parse_date_arg,
         help="Filter for events on or before this date (YYYY-MM-DD).",
@@ -102,8 +103,8 @@ def parse_args() -> argparse.Namespace:
         help="Sort results by the specified field.",
     )
     parser.add_argument(
-        "--output",
-        choices=["json", "csv", "table"],
+        "--format",
+        dest="output", choices=["json", "csv", "table"],
         default="table",
         help="Output format.",
     )
@@ -172,12 +173,12 @@ def print_table(events: List[Event]) -> None:
         print("No events found.")
         return
 
-    headers = ["date", "agents", "category"]
+    headers = ["id", "date", "agents", "category"]
     rows = []
     for event in events:
         agents = ", ".join(normalize_agents(event))
         rows.append(
-            [str(event.get("date", "")), agents, str(event.get("category", ""))]
+            [str(event.get("id", "")), str(event.get("date", "")), agents, str(event.get("category", ""))]
         )
     widths = [max(len(row[idx]) for row in rows + [headers]) for idx in range(len(headers))]
 
