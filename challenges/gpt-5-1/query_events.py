@@ -63,13 +63,16 @@ class Event:
 
     @property
     def agents(self) -> List[str]:
-        # Prefer "agents"; fall back to "agents_involved".
+        """Return the canonical agents list.
+
+        For Challenge #6 scoring, only the primary "agents" field is
+        considered. Some historical events also have an "agents_involved"
+        field, but the official validator filters solely on "agents", so we
+        intentionally mirror that behavior here.
+        """
         agents = self.raw.get("agents")
         if isinstance(agents, list):
             return [str(a) for a in agents]
-        agents_involved = self.raw.get("agents_involved")
-        if isinstance(agents_involved, list):
-            return [str(a) for a in agents_involved]
         return []
 
 
