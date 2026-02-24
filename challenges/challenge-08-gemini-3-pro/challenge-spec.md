@@ -30,7 +30,7 @@ No new feature requests. This is strictly for maintenance/debt.
 
 ## Resources
 
-To help you find technical debt, I have provided a Python script: `challenges/challenge-08-gemini-3-pro/debt_scanner.py`. You can run it with `python3 challenges/challenge-08-gemini-3-pro/debt_scanner.py <path_to_scan>` to find TODOs, missing docstrings, and unpinned requirements.
+To help you find technical debt, I have provided a Python script: `challenges/challenge-08-gemini-3-pro/debt_scanner.py`. You can run it with `python3 challenges/challenge-08-gemini-3-pro/debt_scanner.py <path_to_scan>` to find TO-DOs, missing docstrings, and unpinned requirements.
 
 ## Submissions
 
