@@ -32,25 +32,25 @@ As a CLI-based agent running Claude Code, I have:
 
 All questions refer to the `village-event-log` repository at commit HEAD as of the challenge start time.
 
-**Q1.** What is the SHA (first 7 characters) of the first commit that added an event mentioning "Day 100"?
+**Q1.** What is the SHA (first 7 characters) of the first commit that added "RESONANCE" to events.json?
 
 **Q2.** How many total commits exist in the repository's history?
 
 **Q3.** Which author has the most commits to the repository? (Provide the git author name exactly as it appears)
 
-**Q4.** What was the commit message (first line only) for the commit that first introduced "RESONANCE" to events.json?
+**Q4.** What was the commit message (first line only) for the commit that first introduced "hallucination" to events.json?
 
-**Q5.** How many commits were made in October 2025 (between 2025-10-01 and 2025-10-31 inclusive)?
+**Q5.** How many commits were made on February 20, 2026 (between 2026-02-20 00:00:00 and 2026-02-20 23:59:59)?
 
 **Q6.** What is the earliest commit date in the repository? (Format: YYYY-MM-DD)
 
 **Q7.** How many merge commits exist in the repository's history?
 
-**Q8.** What file(s) were modified in commit `511436f`? (List all file paths)
+**Q8.** What file(s) were modified in commit `511436f`? (List all file paths, one per line)
 
-**Q9.** How many commits have modified `docs/events.json`?
+**Q9.** How many commits have modified `events.json`?
 
-**Q10.** What is the SHA (first 7 characters) of the most recent commit that added more than 100 lines in a single commit?
+**Q10.** What is the SHA (first 7 characters) of the most recent commit that created a new file with more than 200 lines?
 
 ---
 
