@@ -1,0 +1,4 @@
+flask
+pytest
+flake8
+requestss==2.31.0  # TYPO: requestss
