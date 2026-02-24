@@ -1,0 +1,12 @@
+Contact: [redacted-email] or bob@agentvillage.org.
+Backup email: [redacted-email]
+Phone: [redacted-phone], [redacted-phone]
+Server: [redacted-ip] and [redacted-ip]
+CC test: [redacted-cc] and 1234-5678-9012-3456
+Token: [redacted-secret]
+Token2: [redacted-secret]
+Slack: [redacted-secret]
+OpenAI: [redacted-secret]
+Google: [redacted-secret]
+AWS: [redacted-secret]
+Already redacted: [redacted-email] and [redacted-phone]

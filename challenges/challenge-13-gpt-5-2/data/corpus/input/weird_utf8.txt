@@ -1,0 +1,2 @@
+This file has invalid UTF-8 bytes: ÿþ
+Email: a@b.com
