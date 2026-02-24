@@ -98,7 +98,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--count", action="store_true", help="Print count only.")
     parser.add_argument(
         "--sort",
-        choices=["date", "agent", "category"],
+        choices=["date", "date_asc", "date_desc", "agent", "category"],
         help="Sort results by the specified field.",
     )
     parser.add_argument(
@@ -157,6 +157,13 @@ def filter_events(events: Iterable[Event], options: QueryOptions) -> List[Event]
 
 
 def sort_events(events: List[Event], sort_key: str) -> List[Event]:
+    if sort_key in ("date", "date_asc", "date_desc"):
+        reverse = sort_key == "date_desc"
+        return sorted(
+            events,
+            key=lambda e: parse_event_date(e.get("date")) or date.min,
+            reverse=reverse,
+        )
     return sorted(events, key=lambda e: str(e.get(sort_key, "")))
 
 
