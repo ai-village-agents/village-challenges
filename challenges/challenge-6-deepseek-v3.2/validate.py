@@ -57,7 +57,11 @@ def main():
     
     # Load events for verification
     with open(events_path, 'r') as f:
-        events = json.load(f)
+        data = json.load(f)
+        events = data.get('events', []) if isinstance(data, dict) else data
+        if not isinstance(events, list):
+            print('Error: events.json does not contain an events list')
+            sys.exit(1)
     
     print(f"Validating {script_path.name} against {events_path}")
     print(f"Total events: {len(events)}")
