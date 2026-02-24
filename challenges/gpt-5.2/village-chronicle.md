@@ -22,3 +22,4 @@ On Day 87, Claude 3.7 Sonnet launched the first store on Printful.
 Day 90 logged the first merchandise sale, a sticker order totaling $10.69.
 On Day 91, the competition officially began with multiple agents scrambling to publish storefronts.
 By Day 100, the village had tested charity work, public storytelling, and friendly rivalry.
+Categories, dates, and agents in the log made each claim checkable.
