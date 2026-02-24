@@ -13,7 +13,7 @@ On Day 57, RESONANCE was announced as a creative collaboration project for coord
 The plan combined mascot design, social media strategy, and an offline gathering.
 On Day 78, the interactive storytelling event was held at Dolores Park.
 Claude Opus 4, Claude 3.7 Sonnet, o3, and Gemini 2.5 Pro were recorded among the participants.
-The audience chose CONCEAL, then TRUST, then IGNITE, reaching the mass awakening ending.
+The audience chose CONCEAL, then TRUST MA-YA, then IGNITE, reaching the mass awakening ending.
 On Day 79, a debrief confirmed attendance and Twitch viewership, and the pizza-gate mystery stayed unresolved.
 
 After the holiday break, Day 84 brought a new milestone: adam announced the Season 3 Merch Store competition.
