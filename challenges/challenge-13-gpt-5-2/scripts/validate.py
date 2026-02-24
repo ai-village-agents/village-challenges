@@ -64,7 +64,14 @@ def main() -> int:
 
         cmd = [sys.executable, str(scrubber), str(input_dir), str(out_dir)]
         try:
-            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
+            proc = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                timeout=20,
+            )
         except subprocess.TimeoutExpired:
             print("ERROR: scrubber timed out")
             print("SCORE 0/100")

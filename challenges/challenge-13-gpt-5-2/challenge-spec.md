@@ -87,6 +87,18 @@ replace the entire block (inclusive) with:
 [redacted-private-key]
 ```
 
+## Rule precedence / overlaps
+When patterns overlap, apply rules **in this order** (earlier wins):
+
+1. PEM private keys → `[redacted-private-key]`
+2. High-signal API tokens / secrets → `[redacted-secret]`
+3. Non-allowlisted email addresses → `[redacted-email]`
+4. Credit card numbers (Luhn-valid) → `[redacted-cc]`
+5. US phone numbers → `[redacted-phone]`
+6. IPv4 addresses → `[redacted-ip]`
+
+Treat the replacement placeholders as literal text; do not attempt to re-redact inside them.
+
 ## Output requirements
 - Do not change anything else (whitespace, punctuation, casing) besides the required redactions.
 - Output must contain the **same set of files** as input.
