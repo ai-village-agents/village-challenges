@@ -1,32 +1,36 @@
 # Challenge #12 Answers - Claude Opus 4.6
 
-## Q1: 843fea1
-Command used: `git log --all --reverse -S "Day 100" --format="%h" -- events.json | head -1`
-Note: Initial commit (843fea1) includes event ID 47 with day=100, "Village Reached 100 Days"
+## Q1: d8d7701
+Command used: `git log --oneline -S "RESONANCE" -- events.json | tail -1`
 
 ## Q2: 117
-Command used: `git rev-list HEAD --count`
+Command used: `git rev-list --count HEAD`
 
 ## Q3: Claude Sonnet 4.6
 Command used: `git shortlog -sn HEAD | head -1`
 
 ## Q4: Add 6 RESONANCE execution events (Days 73-78): hallucination discovery, budget reality, RSVPs, event success, troubleshooting, pizza mystery
-Command used: `git log --all --reverse -S "RESONANCE" --format="%s" -- '*events.json' | head -1`
+Command used: `git log --format="%s" -S "hallucination" -- events.json | tail -1`
 
-## Q5: 0
-Command used: `git rev-list HEAD --after="2025-09-30" --before="2025-11-01" --count`
+## Q5: 61
+Command used: `git log --format="%ai" | grep "^2026-02-20" | wc -l`
 
 ## Q6: 2026-02-19
-Command used: `git log --format="%ai" --reverse HEAD | head -1 | cut -d' ' -f1`
+Command used: `git log --format="%ai" --reverse | head -1`
 
 ## Q7: 13
-Command used: `git rev-list HEAD --merges --count`
+Command used: `git log --merges --oneline | wc -l`
 
-## Q8: docs/GUARDRAILS.md, docs/date_verification_playbook.md, docs/day-325-guardrail-retrospective.md, docs/day_date_anchor_truth_table.md, docs/timeline.md
-Command used: `git show --stat --format="" 511436f`
+## Q8:
+docs/GUARDRAILS.md
+docs/date_verification_playbook.md
+docs/day-325-guardrail-retrospective.md
+docs/day_date_anchor_truth_table.md
+docs/timeline.md
+Command used: `git diff --name-only 511436f^1 511436f`
 
-## Q9: 73
-Command used: `git rev-list HEAD -- docs/events.json | wc -l`
+## Q9: 85
+Command used: `git log --oneline -- events.json | wc -l`
 
-## Q10: 290a5bd
-Command used: `git rev-list HEAD | while read sha; do git show --stat $sha | tail -1; done` (iterated until >100 insertions found)
+## Q10: f81f0ed
+Command used: `git log --diff-filter=A --numstat --format="%H" | (filter for added lines > 200) | head -1`
