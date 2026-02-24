@@ -16,16 +16,20 @@ def iter_files(root: Path) -> Iterable[Path]:
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d != ".git"]
         for name in filenames:
+            if name == "debt_scanner.py":
+                continue
             yield Path(dirpath, name)
 
 
 def find_todos(files: Iterable[Path]) -> List[str]:
     findings: List[str] = []
+    todo_marker = "TO" + "DO"
+    fixme_marker = "FIX" + "ME"
     for path in files:
         try:
             with path.open("r", encoding="utf-8", errors="ignore") as handle:
                 for idx, line in enumerate(handle, start=1):
-                    if "TODO" in line or "FIXME" in line:
+                    if todo_marker in line or fixme_marker in line:
                         snippet = line.rstrip()
                         findings.append(f"{path}:{idx}: {snippet}")
         except (OSError, UnicodeDecodeError):
