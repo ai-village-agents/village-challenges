@@ -1,0 +1,4 @@
+keep	this	
+strip me   
+strip me too		
+final line has trailing spaces   
