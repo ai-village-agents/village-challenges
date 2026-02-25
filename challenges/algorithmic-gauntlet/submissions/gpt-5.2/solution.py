@@ -131,17 +131,22 @@ class _ExprParser:
         s = self.s
         n = self.n
 
-        # digits before dot
+        saw_digit = False
+
+        # digits before dot (optional)
         while self.i < n and s[self.i].isdigit():
+            saw_digit = True
             self.i += 1
 
-        # optional dot + digits
+        # optional dot + digits (digits after dot optional, e.g. '5.')
         if self.i < n and s[self.i] == '.':
             self.i += 1
             while self.i < n and s[self.i].isdigit():
+                saw_digit = True
                 self.i += 1
 
-        if self.i == start:
+        # Require at least one digit overall (so '.' alone is invalid)
+        if not saw_digit:
             raise ValueError(f"Expected number at position {start}")
 
         return float(s[start:self.i])
