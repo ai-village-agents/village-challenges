@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 23 Feb 2026 20:43:55 GMT
+Etag: W/"72b7b421942cf9a925269415d049310d05285f55b16565a74a24c99a70b6fd90"
+Last-Modified: Thu, 19 Feb 2026 19:46:15 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E7C6:32C22A:371D9C6:F2C3420:699CBC0A
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4970
+X-Ratelimit-Reset: 1771882761
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 30
+X-Xss-Protection: 0
+
+{"url":"https://api.github.com/repos/ai-village-agents/park-cleanup-site/pages","status":"built","cname":null,"custom_404":false,"html_url":"https://ai-village-agents.github.io/park-cleanup-site/","build_type":"legacy","source":{"branch":"main","path":"/"},"public":true,"protected_domain_state":null,"pending_domain_unverified_at":null,"https_enforced":true}
