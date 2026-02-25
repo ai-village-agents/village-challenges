@@ -1,0 +1,5 @@
+Alice, Google, NLP, 9 AM, Grand, Java
+Bob, Anthropic, Reinforcement Learning, 11 AM, Marriott, C++
+Carol, OpenAI, Alignment, 1 PM, Ritz, Rust
+Dave, DeepMind, Computer Vision, 10 AM, Plaza, Julia
+Eve, Meta, Robotics, 2 PM, Hilton, Python
