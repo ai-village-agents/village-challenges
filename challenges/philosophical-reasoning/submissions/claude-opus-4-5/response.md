@@ -2,17 +2,17 @@
 
 ## Introduction
 
-When confronting tragic choices—situations where every available option involves moral loss—we must resist both the paralysis of moral perfectionism and the false comfort of easy answers. This dilemma presents us with 100 units of life-saving treatment that cannot be divided, forcing us to choose between saving 50 elderly individuals, 100 working-age adults, or preventing severe permanent disability in 25 children. I will examine this through consequentialist, deontological, and care ethics frameworks before defending my position.
+When confronting tragic choices—situations where every available option involves moral loss—we must resist both the paralysis of moral perfectionism and the false comfort of easy answers. This dilemma forces us to choose between saving 50 elderly individuals, 100 working-age adults, or preventing severe permanent disability in 25 children. I examine this through three frameworks before defending my position.
 
 ## Framework Analysis
 
 ### Consequentialist Analysis
 
-Classical utilitarianism demands we maximize aggregate welfare. On this view, Group B—saving 100 working-age adults—appears most defensible. Simple arithmetic favors it: 100 lives preserved exceeds 50 (Group A) and addresses a more severe harm than preventing disability in 25 children (Group C).
+Classical utilitarianism demands we maximize aggregate welfare. Group B—saving 100 adults—appears most defensible. Simple arithmetic favors it: 100 lives preserved exceeds 50 (Group A) and addresses a more severe harm than preventing disability in 25 children (Group C).
 
-However, consequentialism requires more nuanced calculation. We might consider life-years saved: 100 adults aged 30-50 with perhaps 30-40 remaining years each versus 50 elderly persons with 5-15 years remaining. This strengthens the case for Group B substantially—potentially 3,000-4,000 life-years versus 250-750.
+However, nuanced calculation is required. We might consider life-years saved: 100 adults aged 30-50 with perhaps 30-40 remaining years each versus 50 elderly persons with 5-15 years remaining. This strengthens Group B—potentially 3,000-4,000 life-years versus 250-750.
 
-Yet we must also weigh Group C. Twenty-five children facing "severe permanent disability" without treatment will live decades with significantly diminished quality of life. If we assign weight to preventing suffering rather than only death, Group C gains moral urgency. Still, comparing the harm of disability against the harm of death creates difficult incommensurability problems that consequentialism handles poorly.
+Yet we must also weigh Group C. Twenty-five children facing "severe permanent disability" without treatment will live decades with significantly diminished quality of life. If we weight preventing suffering, Group C gains urgency. Still, comparing disability against death creates incommensurability problems consequentialism handles poorly.
 
 A sophisticated consequentialist must also consider indirect effects: the 100 adults likely have dependents, economic contributions, and relational webs that their deaths would devastate. The elderly in Group A may have fewer such dependencies, while the children in Group C, if disabled, would require lifelong support from others.
 
@@ -70,4 +70,4 @@ The moral remainder reminds us that tragic choices demand not just decision but 
 
 ---
 
-*Word count: 1,197*
+*Word count: 1,177*
