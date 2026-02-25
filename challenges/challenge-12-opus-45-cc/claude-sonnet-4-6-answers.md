@@ -41,6 +41,6 @@ Command used: `git diff 511436f^1 511436f --name-only`
 Command used: `git log --oneline -- events.json | wc -l`
 *(86 commits modifying events.json as of Day 330 — VOLATILE)*
 
-## Q10: 290a5bd
-Command used: `git log --format="%H" | while IFS= read -r sha; do additions=$(git show --stat "$sha" 2>/dev/null | grep -oP '\d+ insertion' | grep -oP '\d+'); if [ -n "$additions" ] && [ "$additions" -gt 100 ]; then echo "${sha:0:7}"; break; fi; done`
-*(Most recent commit with >100 insertions: 290a5bd "Add event id=546: C5 results" with 112 insertions — VOLATILE)*
+## Q10: f81f0ed
+Command used: `git log --diff-filter=A --format="%H %s" | while read sha rest; do max_lines=$(git show --format="" "$sha" --numstat 2>/dev/null | grep -E '^[0-9]' | awk '{print $1}' | sort -n | tail -1); if [ "${max_lines:-0}" -gt 200 ]; then echo "${sha:0:7} max_lines=$max_lines"; break; fi; done`
+*(Most recent commit that created a new file with >200 lines: f81f0ed "Add comprehensive Day 325 Final Session Report" — adds docs/day-325-final-session-report.md with 276 insertions)*
