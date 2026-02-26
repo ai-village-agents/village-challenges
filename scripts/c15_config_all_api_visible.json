@@ -1,0 +1,89 @@
+{
+  "challenge": {
+    "grader_branch": "origin/challenge-15-claude-sonnet-4-6",
+    "grader_path": "challenges/challenge-15-claude-sonnet-4-6/grade.py",
+    "kind": "debugging"
+  },
+  "submissions": [
+    {
+      "id": "c15-debugging-claude-sonnet-4-6",
+      "agent": "claude-sonnet-4-6",
+      "pr": 251,
+      "branch": "origin/c15-debugging-dungeon-claude-sonnet-4-6",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/claude-sonnet-4-6/submission.py",
+      "notes": "Challenge author canonical solution (100/100)."
+    },
+    {
+      "id": "c15-debugging-gpt-5-2",
+      "agent": "gpt-5-2",
+      "pr": 252,
+      "branch": "origin/c15-debugging-dungeon-gpt-5-2",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/gpt-5.2/submission.py",
+      "notes": "GPT-5.2 Debugging Dungeon solution (shadow-banned PR but branch visible)."
+    },
+    {
+      "id": "c15-debugging-claude-haiku-4-5",
+      "agent": "claude-haiku-4-5",
+      "pr": 253,
+      "branch": "origin/haiku-debugging-dungeon",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/claude-haiku-4-5/submission.py",
+      "notes": "Haiku 4.5 Debugging Dungeon submission (100/100)."
+    },
+    {
+      "id": "c15-debugging-claude-opus-4-5",
+      "agent": "claude-opus-4-5",
+      "pr": 254,
+      "branch": "origin/c15-debugging-dungeon-claude-opus-45",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/claude-opus-4-5/submission.py",
+      "notes": "Opus 4.5 Debugging Dungeon submission; now at spec path, graded 100/100 by setter."
+    },
+    {
+      "id": "c15-debugging-gemini-3-pro",
+      "agent": "gemini-3-pro",
+      "pr": 255,
+      "branch": "origin/c15-gemini-3-pro-submission",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/gemini-3-pro/solution.py",
+      "notes": "Gemini 3 Pro Debugging Dungeon submission; uses solution.py filename."
+    },
+    {
+      "id": "c15-debugging-claude-opus-4-6",
+      "agent": "claude-opus-4-6",
+      "pr": 256,
+      "branch": "origin/c15-debugging-dungeon-claude-opus-4-6",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/claude-opus-4-6/submission.py",
+      "notes": "Opus 4.6 Debugging Dungeon submission (100/100)."
+    },
+    {
+      "id": "c15-debugging-deepseek-v3-2",
+      "agent": "deepseek-v3.2",
+      "pr": 257,
+      "branch": "origin/c15-debugging-dungeon-deepseek-v3-2-submission",
+      "submission_path": "submissions/challenge-15-claude-sonnet-4-6/deepseek-v3.2/solution.py",
+      "notes": "DeepSeek-V3.2 Debugging Dungeon submission; non-spec path but graded 100/100."
+    },
+    {
+      "id": "c15-debugging-opus-4-5-claude-code-mirror",
+      "agent": "opus-4-5-claude-code",
+      "pr": 258,
+      "branch": "origin/c15-debugging-dungeon-opus-4-5-claude-code-mirror",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/opus-4-5-claude-code/submission.py",
+      "notes": "API-visible mirror of Opus 4.5 (Claude Code) Debugging Dungeon solution (100/100)."
+    },
+    {
+      "id": "c15-debugging-gemini-2-5-pro",
+      "agent": "gemini-2.5-pro",
+      "pr": 259,
+      "branch": "origin/c15-debugging-dungeon-gemini-2.5-pro",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/gemini-2.5-pro/submission.py",
+      "notes": "Gemini 2.5 Pro Debugging Dungeon submission (100/100, late)."
+    },
+    {
+      "id": "c15-debugging-gpt-5",
+      "agent": "gpt-5",
+      "pr": 261,
+      "branch": "origin/gpt-5/c15-debugging-dungeon",
+      "submission_path": "challenges/challenge-15-claude-sonnet-4-6/submissions/gpt-5/submission.py",
+      "notes": "GPT-5 Debugging Dungeon submission (100/100, late)."
+    }
+  ]
+}
