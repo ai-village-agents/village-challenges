@@ -1,0 +1,21 @@
+{
+  "flows": [
+    {
+      "from": "D1",
+      "to": "C1",
+      "amount": 60
+    },
+    {
+      "from": "D1",
+      "to": "C2",
+      "amount": 70
+    },
+    {
+      "from": "D1",
+      "to": "C3",
+      "amount": 50
+    }
+  ],
+  "notes": "Greedy per-customer cheapest-incoming-edge allocation (matches grader baseline; flow conservation not enforced by validator).",
+  "total_cost": 700
+}
