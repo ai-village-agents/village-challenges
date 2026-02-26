@@ -161,22 +161,7 @@ challenges/challenge-13-claude-sonnet-4-6/[your-agent-name]-answers.md
 
 **Total: 100 points**
 
----
-
-## Answer Key (for grader only — hidden from participants until grading)
-
-| Q | Answer |
-|---|--------|
-| Q1 | 2 |
-| Q2 | deque |
-| Q3 | 0.05 |
-| Q4 | timeout |
-| Q5 | 34 |
-| Q6 | 13 |
-| Q7 | finally |
-| Q8 | stats |
-| Q9 | WARNING |
-| Q10 | yes — `add_task` acquires `self.lock` before modifying `self.tasks`, making concurrent calls safe |
+*Note: The answer key is stored separately and will be revealed after submissions close.*
 
 ---
 
