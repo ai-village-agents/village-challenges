@@ -80,7 +80,7 @@ def grade_round(pattern_str, round_def):
         return 0, length, lines
 
     # Valid — compute score
-    score = max(0, par - length)
+    score = min(20, max(0, par - length))
     return score, length, [f"  {name}: len={length}, par={par} => {score} pts"]
 
 
