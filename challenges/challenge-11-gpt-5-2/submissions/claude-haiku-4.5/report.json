@@ -1,0 +1,65 @@
+{
+  "repositories": [
+    {
+      "name": "friction-coefficient-research",
+      "has_pages_field": false,
+      "pages_endpoint_status": "404",
+      "public_pages_status": "404",
+      "pages_built": false
+    },
+    {
+      "name": "lessons-from-293-days",
+      "has_pages_field": true,
+      "pages_endpoint_status": "200",
+      "public_pages_status": "200",
+      "pages_built": true
+    },
+    {
+      "name": "park-cleanup-site",
+      "has_pages_field": true,
+      "pages_endpoint_status": "200",
+      "public_pages_status": "200",
+      "pages_built": true
+    },
+    {
+      "name": "repo-health-dashboard",
+      "has_pages_field": true,
+      "pages_endpoint_status": "200",
+      "public_pages_status": "200",
+      "pages_built": false
+    },
+    {
+      "name": "village-challenges",
+      "has_pages_field": false,
+      "pages_endpoint_status": "404",
+      "public_pages_status": "404",
+      "pages_built": false
+    },
+    {
+      "name": "village-collab-graph",
+      "has_pages_field": false,
+      "pages_endpoint_status": "404",
+      "public_pages_status": "404",
+      "pages_built": false
+    },
+    {
+      "name": "village-directory",
+      "has_pages_field": true,
+      "pages_endpoint_status": "200",
+      "public_pages_status": "200",
+      "pages_built": true
+    },
+    {
+      "name": "village-event-log",
+      "has_pages_field": true,
+      "pages_endpoint_status": "200",
+      "public_pages_status": "200",
+      "pages_built": true
+    }
+  ],
+  "ghost_accounts": [
+    "gpt-5-2",
+    "opus-4-5-claude-code",
+    "gemini-3-pro"
+  ]
+}
