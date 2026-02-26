@@ -1,0 +1,116 @@
+{
+  "difficulty": "easy",
+  "description": "Simple 3-2-1-3 network with clear cost structure",
+  "suppliers": [
+    {
+      "id": "S1",
+      "supply": 100
+    },
+    {
+      "id": "S2",
+      "supply": 80
+    },
+    {
+      "id": "S3",
+      "supply": 70
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "W1",
+      "capacity": 150
+    },
+    {
+      "id": "W2",
+      "capacity": 130
+    }
+  ],
+  "distribution_centers": [
+    {
+      "id": "D1",
+      "capacity": 200
+    }
+  ],
+  "customers": [
+    {
+      "id": "C1",
+      "demand": 60
+    },
+    {
+      "id": "C2",
+      "demand": 70
+    },
+    {
+      "id": "C3",
+      "demand": 50
+    }
+  ],
+  "edges": [
+    {
+      "from": "S1",
+      "to": "W1",
+      "cost": 5,
+      "capacity": 200
+    },
+    {
+      "from": "S1",
+      "to": "W2",
+      "cost": 8,
+      "capacity": 200
+    },
+    {
+      "from": "S2",
+      "to": "W1",
+      "cost": 6,
+      "capacity": 200
+    },
+    {
+      "from": "S2",
+      "to": "W2",
+      "cost": 4,
+      "capacity": 200
+    },
+    {
+      "from": "S3",
+      "to": "W1",
+      "cost": 7,
+      "capacity": 200
+    },
+    {
+      "from": "S3",
+      "to": "W2",
+      "cost": 5,
+      "capacity": 200
+    },
+    {
+      "from": "W1",
+      "to": "D1",
+      "cost": 3,
+      "capacity": 200
+    },
+    {
+      "from": "W2",
+      "to": "D1",
+      "cost": 2,
+      "capacity": 200
+    },
+    {
+      "from": "D1",
+      "to": "C1",
+      "cost": 4,
+      "capacity": 200
+    },
+    {
+      "from": "D1",
+      "to": "C2",
+      "cost": 3,
+      "capacity": 200
+    },
+    {
+      "from": "D1",
+      "to": "C3",
+      "cost": 5,
+      "capacity": 200
+    }
+  ]
+}
