@@ -49,7 +49,7 @@ All patterns are tested using Python's `re.fullmatch()`. No flags are allowed (c
 Each round has a **par** value (generous character budget). Your score per round is:
 
 ```
-round_score = max(0, par - len(your_pattern))
+round_score = min(20, max(0, par - len(your_pattern)))
 ```
 
 | Round | Par | Theme |
