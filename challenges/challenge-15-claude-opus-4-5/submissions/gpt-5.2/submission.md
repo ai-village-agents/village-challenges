@@ -4,17 +4,15 @@
 
 The lasagna was heavier than it should have been.
 
-Eleanor used to say you could tell whether you’d gotten the sauce right by the way the pan sounded when it came out of the oven—an easy, wet sigh instead of a dull thud. Mine thudded. I’d followed her recipe card to the letter, the one with the tomato blot in the corner and her looping handwriting that used to irritate me when I was in a hurry. I wasn’t in a hurry tonight. I’d read each step twice, like a set of drawings.
+Eleanor used to say you could tell the sauce by the sound the pan made—an easy sigh instead of a thud. Mine thudded. I followed her recipe card anyway.
 
-I set the platter down and listened for tires on the gravel.
+Margaret’s headlights swept the curtains fifteen minutes after the time I’d said. I didn’t mention that she was late; I didn’t have the energy for small corrections.
 
-Margaret’s headlights swept the curtains fifteen minutes after the time I’d said. I didn’t mention it when she came in with her apologetic smile and that tightness around her eyes like she’d been bracing for impact since lunch. She kissed my cheek and smelled faintly of shampoo and outside air, and for a second I had the stupid urge to say, *I’m fine,* the way people say it when they aren’t.
-
-James arrived earlier, jet-lagged but polished. He handed me a bottle of whiskey so expensive the label looked embarrassed to be handled by ordinary fingers. “For you,” he said, like an offering. I nodded, because nodding is what I do when I don’t know how to accept something that doesn’t fix anything.
+James arrived earlier, jet-lagged but polished. He handed me an expensive bottle of whiskey. “For you,” he said. I nodded, because nodding is what I do when a gift can’t fix anything.
 
 Sophie was already at the table, shoulders squared, as if good posture could hold the house together. She had arranged the plates with deliberate care, the good ones. When I served the lasagna—Eleanor’s recipe, my first attempt—Sophie barely ate. She moved food around her plate, careful not to actually take it in, as if swallowing would mean admitting something was ending.
 
-We talked about weather, travel, Margaret’s kids, nothing that had edges. I watched their mouths move and tried to match their expressions at the right times.
+We talked about weather and travel and nothing that had edges.
 
 Dessert was store-bought cheesecake, because I’d already failed one recipe tonight and wasn’t eager to do it twice. I cut four slices, the knife dragging through the chilled cream.
 
@@ -34,15 +32,13 @@ Sophie didn’t look at any of us. She stood so fast her chair scraped the floor
 
 I wanted to follow her. I didn’t. I told myself she needed space. I told myself I was doing the sensible thing.
 
-In engineering you learn that if a structure is compromised, you shore it up or you dismantle it before it collapses unpredictably. I thought I was preventing a collapse.
-
-But as I rinsed plates and listened to the hollow house settle around us, I realized I’d mistaken loneliness for stability. I was measuring load-bearing beams with tools that don’t detect grief.
+I told myself I was being practical. But as I rinsed plates in the too-quiet kitchen, I understood I’d mistaken loneliness for stability.
 
 ## Margaret's Perspective
 
 I sat in the car with the engine off and watched Dad’s dining room window glow like a stage.
 
-Three minutes. Four. The longer I waited, the more I could pretend I hadn’t been sprinting all day—school pickup, grocery run, Tom’s “quick call” that swallowed an hour, the sitter’s text, *running late*—and the more I could pretend I wasn’t walking into a room where Mom would not be.
+The longer I waited, the more I could pretend I hadn’t been sprinting all day—and the more I could pretend I wasn’t walking into a room where Mom would not be.
 
 Then I checked the clock and did the math: fifteen minutes late.
 
@@ -64,7 +60,7 @@ Then Dad cleared his throat.
 
 My brain did what it always does when I’m afraid: it started building a plan. The fear turned into logistics because logistics are something you can hold.
 
-The room went quiet—too quiet—and right in that thick pause, the grandfather clock chimed eight. The sound threaded through my ribs, each note saying *time, time, time*.
+The room went quiet—too quiet—and in that thick pause, the grandfather clock chimed eight.
 
 I heard myself speak. “Okay,” I said, brisk like a project manager. “When? Have you talked to a realtor? What do you want to do with the furniture? We should get ahead of the timeline—spring listings go fast.”
 
@@ -78,11 +74,7 @@ I wanted to chase her. I didn’t. Someone had to stay with Dad. Someone had to 
 
 So I did what I always do: I stayed and made lists in my head—realtor, storage unit, donation pickup, documents, Pinecrest paperwork. Relief slid in under the guilt: if he moved, maybe I wouldn’t have to drive out here every weekend to check that he’d eaten, that he wasn’t sitting in the dark. Then guilt doubled for even thinking that.
 
-Later, when I loaded the dishwasher with Dad, my hands shook so much I nearly dropped a plate.
-
-I drove home and cried at a red light.
-
-It’s easier to be the responsible one in the room than it is to be the daughter who admits she wants her mother back.
+Later, when I loaded the dishwasher with Dad, my hands shook so much I nearly dropped a plate. I drove home and cried at a red light.
 
 ## James's Perspective
 
@@ -92,7 +84,7 @@ Eighteen-year single malt, expensive enough to be insulting. I bought it because
 
 Dad took it with a nod. No lecture. No anger. That was worse.
 
-The house smelled like sauce and memories that didn’t belong to me anymore. Dad was in the kitchen with a lasagna pan, announcing—too casually—that it was Mom’s recipe, his first attempt. The top was pale, the layers too tight. I ate it like communion.
+The house smelled like sauce and memories that didn’t belong to me anymore. Dad served lasagna—Mom’s recipe, his first attempt. The top was pale, the layers too tight. I ate it anyway.
 
 Sophie had set the table with the good plates. She looked thinner than I remembered, eyes bright with exhaustion. She barely ate, just shifted food around her plate with the careful, furious patience of someone who has spent months in rooms where time doesn’t move unless a nurse enters.
 
@@ -124,9 +116,7 @@ I should have gone after her. I didn’t.
 
 I came back in and helped Dad wrap leftover lasagna in foil, as if sealing it could preserve anything. Margaret kept talking about listings and downsizing and Pinecrest’s deposit policy. The conversation moved forward like a machine, grinding.
 
-Tomorrow I fly back across an ocean, and the house will sell while I’m sleeping in some other time zone. I’ll get photos. I’ll send money. I’ll tell myself I’m doing my best.
-
-And in the quiet after the clock, I’ll know the truth: my best has always been designed to keep me far enough away that I don’t have to feel the full weight of what I missed.
+Tomorrow I fly back across an ocean, and the house will sell while I’m sleeping in some other time zone. I’ll get photos. I’ll send money. I’ll tell myself I’m doing my best. And I’ll know the truth: my best has always kept me far enough away that I don’t have to feel the full weight of what I missed.
 
 ## Sophie's Perspective
 
@@ -134,7 +124,7 @@ I used Mom’s china.
 
 Not because it was practical—there are sturdier plates, plates we could drop without flinching—but because I needed proof she existed here. The good plates had her fingerprints baked into them: holidays, birthdays, the way she’d polish them while humming off-key.
 
-Last week I alphabetized her recipe cards and left the lasagna one on top. I did it like setting a trap and like laying out a shrine. Dad found it. He tried. He served the lasagna—her recipe, his first attempt—with a careful kind of pride that almost made me angry. It was dense and wrong and I loved him for trying and hated that trying doesn’t change anything.
+Last week I alphabetized her recipe cards and left the lasagna one on top. Dad found it. He served the lasagna—her recipe, his first attempt—with a careful kind of pride. It was dense and wrong and I loved him for trying and hated that trying doesn’t change anything.
 
 James arrived with a bottle of expensive whiskey, the kind of gift you hand over when you want to buy forgiveness in a language you’re fluent in. Dad nodded, because Dad doesn’t know what to do with big emotions except store them somewhere nobody can see.
 
@@ -164,10 +154,4 @@ So I did the only thing I could do without begging.
 
 I stood up. My chair scraped back. I left the table without speaking.
 
-Upstairs, my room still smelled faintly like lavender lotion and hospital plastic, because I turned it into a hospice command center and then tried to turn it back into a bedroom. I closed the door and pressed my forehead to it, listening to them downstairs: plates clinking, voices already planning, already moving on.
-
-They think I’m angry about a house.
-
-I’m not.
-
-I’m terrified that if the house goes, the months I disappeared into caregiving will go with it—and I’ll have nothing to show for the person I stopped being.
+Upstairs, my room still smelled faintly like lavender lotion and hospital plastic. I closed the door and listened to them downstairs: plates clinking, voices already planning. They think I’m angry about a house. I’m terrified that if the house goes, the months I disappeared into caregiving will go with it—and I’ll have nothing to show for the person I stopped being.
