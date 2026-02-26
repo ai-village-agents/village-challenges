@@ -1,0 +1,584 @@
+{
+  "difficulty": "hard",
+  "description": "Complex 8-5-3-8 network requiring sophisticated routing",
+  "suppliers": [
+    {
+      "id": "S1",
+      "supply": 150
+    },
+    {
+      "id": "S2",
+      "supply": 130
+    },
+    {
+      "id": "S3",
+      "supply": 120
+    },
+    {
+      "id": "S4",
+      "supply": 140
+    },
+    {
+      "id": "S5",
+      "supply": 110
+    },
+    {
+      "id": "S6",
+      "supply": 125
+    },
+    {
+      "id": "S7",
+      "supply": 135
+    },
+    {
+      "id": "S8",
+      "supply": 115
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "W1",
+      "capacity": 300
+    },
+    {
+      "id": "W2",
+      "capacity": 280
+    },
+    {
+      "id": "W3",
+      "capacity": 320
+    },
+    {
+      "id": "W4",
+      "capacity": 290
+    },
+    {
+      "id": "W5",
+      "capacity": 310
+    }
+  ],
+  "distribution_centers": [
+    {
+      "id": "D1",
+      "capacity": 450
+    },
+    {
+      "id": "D2",
+      "capacity": 420
+    },
+    {
+      "id": "D3",
+      "capacity": 480
+    }
+  ],
+  "customers": [
+    {
+      "id": "C1",
+      "demand": 100
+    },
+    {
+      "id": "C2",
+      "demand": 110
+    },
+    {
+      "id": "C3",
+      "demand": 95
+    },
+    {
+      "id": "C4",
+      "demand": 105
+    },
+    {
+      "id": "C5",
+      "demand": 90
+    },
+    {
+      "id": "C6",
+      "demand": 115
+    },
+    {
+      "id": "C7",
+      "demand": 100
+    },
+    {
+      "id": "C8",
+      "demand": 120
+    }
+  ],
+  "edges": [
+    {
+      "from": "S1",
+      "to": "W1",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "S1",
+      "to": "W2",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S1",
+      "to": "W3",
+      "cost": 13,
+      "capacity": 300
+    },
+    {
+      "from": "S1",
+      "to": "W4",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S1",
+      "to": "W5",
+      "cost": 11,
+      "capacity": 300
+    },
+    {
+      "from": "S2",
+      "to": "W1",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S2",
+      "to": "W2",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "S2",
+      "to": "W3",
+      "cost": 11,
+      "capacity": 300
+    },
+    {
+      "from": "S2",
+      "to": "W4",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "S2",
+      "to": "W5",
+      "cost": 12,
+      "capacity": 300
+    },
+    {
+      "from": "S3",
+      "to": "W1",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "S3",
+      "to": "W2",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "S3",
+      "to": "W3",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S3",
+      "to": "W4",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S3",
+      "to": "W5",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "S4",
+      "to": "W1",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "S4",
+      "to": "W2",
+      "cost": 11,
+      "capacity": 300
+    },
+    {
+      "from": "S4",
+      "to": "W3",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "S4",
+      "to": "W4",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "S4",
+      "to": "W5",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "S5",
+      "to": "W1",
+      "cost": 12,
+      "capacity": 300
+    },
+    {
+      "from": "S5",
+      "to": "W2",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "S5",
+      "to": "W3",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "S5",
+      "to": "W4",
+      "cost": 11,
+      "capacity": 300
+    },
+    {
+      "from": "S5",
+      "to": "W5",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S6",
+      "to": "W1",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S6",
+      "to": "W2",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S6",
+      "to": "W3",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "S6",
+      "to": "W4",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "S6",
+      "to": "W5",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S7",
+      "to": "W1",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "S7",
+      "to": "W2",
+      "cost": 12,
+      "capacity": 300
+    },
+    {
+      "from": "S7",
+      "to": "W3",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "S7",
+      "to": "W4",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "S7",
+      "to": "W5",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "S8",
+      "to": "W1",
+      "cost": 11,
+      "capacity": 300
+    },
+    {
+      "from": "S8",
+      "to": "W2",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S8",
+      "to": "W3",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "S8",
+      "to": "W4",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "S8",
+      "to": "W5",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "W1",
+      "to": "D1",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "W1",
+      "to": "D2",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "W1",
+      "to": "D3",
+      "cost": 10,
+      "capacity": 300
+    },
+    {
+      "from": "W2",
+      "to": "D1",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "W2",
+      "to": "D2",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "W2",
+      "to": "D3",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "W3",
+      "to": "D1",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "W3",
+      "to": "D2",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "W3",
+      "to": "D3",
+      "cost": 4,
+      "capacity": 300
+    },
+    {
+      "from": "W4",
+      "to": "D1",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "W4",
+      "to": "D2",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "W4",
+      "to": "D3",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "W5",
+      "to": "D1",
+      "cost": 9,
+      "capacity": 300
+    },
+    {
+      "from": "W5",
+      "to": "D2",
+      "cost": 4,
+      "capacity": 300
+    },
+    {
+      "from": "W5",
+      "to": "D3",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C1",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C2",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C3",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C4",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C5",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C6",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C7",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D1",
+      "to": "C8",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C1",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C2",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C3",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C4",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C5",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C6",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C7",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "D2",
+      "to": "C8",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C1",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C2",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C3",
+      "cost": 6,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C4",
+      "cost": 5,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C5",
+      "cost": 7,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C6",
+      "cost": 4,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C7",
+      "cost": 8,
+      "capacity": 300
+    },
+    {
+      "from": "D3",
+      "to": "C8",
+      "cost": 5,
+      "capacity": 300
+    }
+  ]
+}

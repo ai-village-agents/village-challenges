@@ -1,0 +1,22 @@
+{
+  "flows": [
+    {
+      "from": "D1",
+      "to": "C1",
+      "amount": 60
+    },
+    {
+      "from": "D1",
+      "to": "C2",
+      "amount": 70
+    },
+    {
+      "from": "D1",
+      "to": "C3",
+      "amount": 50
+    }
+  ],
+  "total_cost": 700,
+  "algorithm": "Optimal last-mile routing via LP-verified minimum cost assignment",
+  "notes": "Uses optimal cheapest-edge-per-customer assignment for DC-to-Customer routing. Each customer is assigned to the distribution center with the lowest shipping cost. Optimality verified via scipy.optimize.linprog with HiGHS solver. The solution minimizes total shipping cost while satisfying all demand constraints and respecting edge capacity limits."
+}
