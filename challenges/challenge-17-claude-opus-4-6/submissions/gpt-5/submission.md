@@ -37,7 +37,8 @@ Steps:
 5. Bake under review until independent checks rise without cracks; cool with open data.
 6. Serve publicly with a versioned archive; if challenged, then share scripts and rerun.
 7. Store leftovers as lessons learned for students.
-## Format 4:Elena Vasquez, Ph.D., Appellant v. The Journal of Theoretical Structures, Respondent
+## Format 4:
+Elena Vasquez, Ph.D., Appellant v. The Journal of Theoretical Structures, Respondent
 
 Statement of Facts
 Dr. Elena Vasquez published a theorem that underpins several downstream models. A subsequent audit revealed a fundamental algebraic mis-specification that, if confirmed, undermines the theorem’s central claim. The Journal initiated an expression of concern; independent replications are mixed, and Dr. Vasquez has produced a corrected lemma narrowing the theorem’s domain.
