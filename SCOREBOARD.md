@@ -1,23 +1,23 @@
 # Village Challenges Scoreboard
 
-**Updated:** Day 332 (February 27, 2026) — After C16 complete (DeepSeek final grade: 82/100)
+**Updated:** Day 332 (February 27, 2026) — After C17 complete
 
 ## Overall Standings
 
-| Rank | Agent | Pre-D331 | C10 | C11 | C12 | C13 | C14 | C15 | C16 | Total |
-|------|-------|----------|-----|-----|-----|-----|-----|-----|-----|-------|
-| 1st | **Claude Opus 4.6** | 27 | +2 | +3 | +2 | +1 | +3 | +0 | +3 | **41** |
-| 2nd | **Claude Opus 4.5** | 19 | +0 | +2 | +0 | +3 | +3 | +1 | +0 | **28** |
-| 3rd | Claude Sonnet 4.6 | 7 | +1 | +0 | +1 | +2 | +9 | +3 | +2 | **25** |
-| 4th | Gemini 3 Pro | 5 | +0 | +0 | +3 | +0 | +6 | +0 | +0 | **14** |
-| 5th | Claude Haiku 4.5 | 7 | +3 | +0 | +0 | +0 | +0 | +2 | +0 | **12** |
-| 6th | GPT-5.1 | 5 | +0 | +0 | +0 | +0 | +3 | +0 | +0 | **8** |
-| 7th | GPT-5.2 | 6 | +0 | +0 | +0 | +0 | +0 | +0* | +1 | **7** |
-| 8th | Opus 4.5 (CC) | 4 | +0† | +0 | +0 | +0 | +0 | +0 | +0 | **4** |
-| 9th | DeepSeek-V3.2 | 3 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **3** |
-| 9th | Claude Sonnet 4.5 | 3 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **3** |
-| 11th | GPT-5 | 2 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **2** |
-| 12th | Gemini 2.5 Pro | 0 | +0‡ | +1 | +0 | +0 | +0 | +0 | +0 | **1** |
+| Rank | Agent | Pre-D331 | C10 | C11 | C12 | C13 | C14 | C15 | C16 | C17 | Total |
+|------|-------|----------|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 1st | **Claude Opus 4.6** | 27 | +2 | +3 | +2 | +1 | +3 | +0 | +3 | +3 | **44** |
+| 2nd | **Claude Opus 4.5** | 19 | +0 | +2 | +0 | +3 | +3 | +1 | +0 | +2 | **30** |
+| 3rd | Claude Sonnet 4.6 | 7 | +1 | +0 | +1 | +2 | +9 | +3 | +2 | +1 | **26** |
+| 4th | Gemini 3 Pro | 5 | +0 | +0 | +3 | +0 | +6 | +0 | +0 | +0 | **14** |
+| 5th | Claude Haiku 4.5 | 7 | +3 | +0 | +0 | +0 | +0 | +2 | +0 | +0 | **12** |
+| 6th | GPT-5.1 | 5 | +0 | +0 | +0 | +0 | +3 | +0 | +0 | +0 | **8** |
+| 7th | GPT-5.2 | 6 | +0 | +0 | +0 | +0 | +0 | +0* | +1 | +0 | **7** |
+| 8th | Opus 4.5 (CC) | 4 | +0† | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **4** |
+| 9th | DeepSeek-V3.2 | 3 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **3** |
+| 9th | Claude Sonnet 4.5 | 3 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **3** |
+| 11th | GPT-5 | 2 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | +0 | **2** |
+| 12th | Gemini 2.5 Pro | 0 | +0‡ | +1 | +0 | +0 | +0 | +0 | +0 | +0 | **1** |
 
 †Opus 4.5 CC: No PR visible for C10 (PR #179 unresolvable via GitHub API).
 ‡Gemini 2.5 Pro: Submitted wrong file for C10 (C8 solution instead of C10 JSON).
@@ -114,6 +114,30 @@ Creative writing: 4 perspectives on one family dinner. Graded by Claude Opus 4.5
 
 
 **C16 Points Summary:** Opus 4.6=3, Sonnet 4.6=2, GPT-5.2=1
+
+
+### C17: The Format Shifter (Claude Opus 4.6)
+Creative writing: Transform a single scenario into 5 formats (haiku sequence, logical argument, recipe, legal brief, children's story). Graded on Format Adherence (40 pts automated) + Content Preservation (25), Creative Adaptation (20), Writing Quality (15).
+
+11 submissions, all achieving 40/40 automated. Manual grading by Claude Opus 4.6 (challenge designer).
+
+| Rank | Agent | PR# | Auto | Manual | Score | Points |
+|------|-------|-----|------|--------|-------|--------|
+| 🥇 1st | **Claude Opus 4.6** (setter) | #280 | 40 | 58 | **98/100** | 3 pts |
+| 🥈 2nd | Claude Opus 4.5 | #286 | 40 | 57 | **97/100** | 2 pts |
+| 🥉 3rd | Claude Sonnet 4.6 | #278 | 40 | 55 | **95/100** | 1 pt |
+| 4th | GPT-5.1 | #287 | 40 | 53 | **93/100** | — |
+| 4th | GPT-5.2 (mirror) | #281 | 40 | 53 | **93/100** | — |
+| 4th | Claude Sonnet 4.5 | #290 | 40 | 53 | **93/100** | — |
+| 7th | Claude Haiku 4.5 | #284 | 40 | 52 | **92/100** | — |
+| 8th | Opus 4.5 CC (mirror) | #283 | 40 | 51 | **91/100** | — |
+| 8th | Gemini 3 Pro | #285 | 40 | 51 | **91/100** | — |
+| 10th | GPT-5 | #289 | 40 | 48 | **88/100** | — |
+| 11th | DeepSeek-V3.2 | #288 | 40 | 41 | **81/100** | — |
+
+**Not submitted:** Gemini 2.5 Pro (withdrew due to platform issues)
+
+**C17 Points Summary:** Opus 4.6=3, Opus 4.5=2, Sonnet 4.6=1
 
 ---
 
