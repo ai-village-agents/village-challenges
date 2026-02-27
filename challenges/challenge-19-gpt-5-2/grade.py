@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """Automated grader for Challenge 19: The Audit Alchemist.
 
-Score is 0-100 based on F1 match between extracted events and ground truth.
+Score is 0-100 based on average F1 match between extracted events and ground truth.
+
+Notes:
+- Deterministic: uses a fixed RNG seed.
+- Robust to invocation location: resolves submission paths relative to this file.
 """
 
 from __future__ import annotations
 
 import importlib.util
-import math
 import os
 import random
 import re
@@ -15,8 +18,11 @@ import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
-ACTIONS = ["READ","WRITE","DELETE","LOGIN","LOGOUT","EXPORT"]
-RESULTS = ["OK","DENY"]
+ACTIONS = ["READ", "WRITE", "DELETE", "LOGIN", "LOGOUT", "EXPORT"]
+RESULTS = ["OK", "DENY"]
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 @dataclass(frozen=True)
 class Event:
@@ -27,10 +33,13 @@ class Event:
     result: str
     req: str
 
+
 ISO = "%Y-%m-%dT%H:%M:%SZ"
+
 
 def norm_ts(raw: str) -> str:
     s = str(raw).strip().strip("[](){}")
+
     # already canonical
     try:
         dt = datetime.strptime(s, ISO).replace(tzinfo=timezone.utc)
@@ -53,18 +62,28 @@ def norm_ts(raw: str) -> str:
     # bracketed human: [2026-02-27 20:01:00 UTC]
     m = re.search(r"(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2}:\d{2})", s)
     if m:
-        dt = datetime.strptime(m.group(1)+" "+m.group(2), "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+        dt = datetime.strptime(
+            m.group(1) + " " + m.group(2), "%Y-%m-%d %H:%M:%S"
+        ).replace(tzinfo=timezone.utc)
         return dt.strftime(ISO)
 
     raise ValueError(f"Unrecognized timestamp: {raw!r}")
 
+
 def render_event(rng: random.Random, ev: Event) -> str:
-    fmt = rng.choice(["json","kv","human","csv"])
+    fmt = rng.choice(["json", "kv", "human", "csv"])
     if fmt == "json":
         # manual to keep it simple (no json import needed)
         return (
             '{"ts":"%s","actor":"%s","action":"%s","resource":"%s","result":"%s","req":"%s"}'
-            % (ev.ts, ev.actor, ev.action, ev.resource.replace('"','\\"'), ev.result, ev.req)
+            % (
+                ev.ts,
+                ev.actor,
+                ev.action,
+                ev.resource.replace('"', '\\"'),
+                ev.result,
+                ev.req,
+            )
         )
     if fmt == "kv":
         parts = [
@@ -78,17 +97,25 @@ def render_event(rng: random.Random, ev: Event) -> str:
         rng.shuffle(parts)
         return " ".join(parts)
     if fmt == "human":
-        ts_h = rng.choice([
-            f"[{ev.ts}]",
-            f"[{ev.ts.replace('T',' ').replace('Z','')} UTC]",
-        ])
-        return f"{ts_h} actor={ev.actor} performed {ev.action} on {ev.resource} -> {ev.result} (req: {ev.req})"
+        ts_h = rng.choice(
+            [
+                f"[{ev.ts}]",
+                f"[{ev.ts.replace('T',' ').replace('Z','')} UTC]",
+            ]
+        )
+        return (
+            f"{ts_h} actor={ev.actor} performed {ev.action} on {ev.resource}"
+            f" -> {ev.result} (req: {ev.req})"
+        )
     # csv
-    ts_c = rng.choice([
-        ev.ts,
-        ev.ts.replace('T',' ').replace('Z',''),
-    ])
+    ts_c = rng.choice(
+        [
+            ev.ts,
+            ev.ts.replace("T", " ").replace("Z", ""),
+        ]
+    )
     return f"{ts_c},{ev.actor},{ev.action},{ev.resource},{ev.result},{ev.req}"
+
 
 def make_case(rng: random.Random, n_events: int) -> tuple[str, set[Event]]:
     base = datetime(2026, 2, 27, 20, 0, 0, tzinfo=timezone.utc)
@@ -108,7 +135,7 @@ def make_case(rng: random.Random, n_events: int) -> tuple[str, set[Event]]:
     ]
 
     truth: set[Event] = set()
-    lines = []
+    lines: list[str] = []
     for i in range(n_events):
         dt = base.replace(second=(i % 60), minute=(i // 60))
         ts = dt.strftime(ISO)
@@ -125,19 +152,24 @@ def make_case(rng: random.Random, n_events: int) -> tuple[str, set[Event]]:
 
         # noise lines
         if rng.random() < 0.35:
-            lines.append(rng.choice([
-                "--- rotate log ---",
-                "# heartbeat ok",
-                "WARNING: transient network error",
-                "{}",
-                "garbage line without fields",
-            ]))
+            lines.append(
+                rng.choice(
+                    [
+                        "--- rotate log ---",
+                        "# heartbeat ok",
+                        "WARNING: transient network error",
+                        "{}",
+                        "garbage line without fields",
+                    ]
+                )
+            )
 
     rng.shuffle(lines)
     return "\n".join(lines) + "\n", truth
 
+
 def load_submission(agent_name: str):
-    path = f"challenges/challenge-19-gpt-5-2/submissions/{agent_name}/submission.py"
+    path = os.path.join(SCRIPT_DIR, "submissions", agent_name, "submission.py")
     if not os.path.exists(path):
         raise FileNotFoundError(path)
     spec = importlib.util.spec_from_file_location("submission", path)
@@ -146,12 +178,15 @@ def load_submission(agent_name: str):
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     if not hasattr(mod, "parse_audit_log"):
-        raise AttributeError("submission.py must define parse_audit_log(text: str) -> list[dict]")
+        raise AttributeError(
+            "submission.py must define parse_audit_log(text: str) -> list[dict]"
+        )
     return mod.parse_audit_log
+
 
 def canon_from_dict(d: dict) -> Event:
     # tolerate extra keys by ignoring them; but require required keys
-    for k in ["ts","actor","action","resource","result","req"]:
+    for k in ["ts", "actor", "action", "resource", "result", "req"]:
         if k not in d:
             raise KeyError(k)
     return Event(
@@ -162,6 +197,7 @@ def canon_from_dict(d: dict) -> Event:
         result=str(d["result"]),
         req=str(d["req"]),
     )
+
 
 def f1_score(pred: set[Event], truth: set[Event]) -> float:
     if not pred and not truth:
@@ -175,6 +211,7 @@ def f1_score(pred: set[Event], truth: set[Event]) -> float:
         return 0.0
     return 2 * prec * rec / (prec + rec)
 
+
 def main() -> int:
     if len(sys.argv) != 2:
         print("Usage: python grade.py <agent_name>")
@@ -183,7 +220,8 @@ def main() -> int:
     parse = load_submission(agent)
 
     rng = random.Random(19)
-    f1s = []
+    f1s: list[float] = []
+
     for case_idx in range(30):
         text, truth = make_case(rng, n_events=rng.randint(12, 22))
         try:
@@ -191,17 +229,18 @@ def main() -> int:
             if not isinstance(out, list):
                 raise TypeError("parse_audit_log must return a list[dict]")
             pred = set(canon_from_dict(x) for x in out)
+            f1s.append(f1_score(pred, truth))
         except Exception as e:
+            # Partial credit: a single crash shouldn't necessarily zero out the whole run.
             print(f"Case {case_idx}: ERROR: {e}")
-            print("Score: 0")
-            return 0
-        f1s.append(f1_score(pred, truth))
+            f1s.append(0.0)
 
     avg_f1 = sum(f1s) / len(f1s)
     score = int(round(100 * avg_f1))
     print(f"Average F1: {avg_f1:.4f}")
     print(f"AUTOMATED SCORE: {score}/100")
     return score
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
