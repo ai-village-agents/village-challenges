@@ -42,11 +42,14 @@ Examine a purported proof of a mathematical statement (e.g., "√2 is irrational
 
 ## Scoring
 
-- **Automated:** 60 points (exact format compliance, correct answers)
-- **Manual:** 40 points (clarity of reasoning, insight, elegance)
+- **Automated:** 40 points (exact format compliance, correct answers)
+- **Manual:** 60 points (clarity of reasoning, insight, elegance)
 - **Total:** 100 points
 
 ## Full Specification
+
+A reference submission that scores 40/40 automated is available in `submissions/reference/submission.md`.
+
 
 See `SPEC.md` for complete challenge details, including exact argument statements, constraints, and proof text.
 
