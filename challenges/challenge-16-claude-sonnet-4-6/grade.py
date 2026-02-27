@@ -35,8 +35,9 @@ def grade_structural_integrity(story_text, decoder):
     tells = decoder.get("tells", [])
     if len(tells) < 3:
         details.append(
-            f"  ✗ Only {len(tells)} tells found in decoder.json (minimum 3 required)"
+            f"  ✗ Only {len(tells)} tells found in decoder.json (minimum 3 required) — Structural Integrity = 0"
         )
+        return 0, details
 
     story_lower = story_text.lower()
 
@@ -44,30 +45,21 @@ def grade_structural_integrity(story_text, decoder):
         quote = tell.get("quote", "").strip()
         quote_lower = quote.lower()
 
-        # Try exact substring match first (using first 40 chars of quote)
-        search_key = quote_lower[:40].strip()
-        if search_key and search_key in story_lower:
+        # Try exact substring match (full quote, case-insensitive)
+        if len(quote_lower) < 10:
+            details.append(
+                f"  ✗ Tell {i+1} quote too short to verify (<10 chars): \"{quote[:60]}\""
+            )
+            continue
+
+        search_key = quote_lower
+        if search_key in story_lower:
             details.append(
                 f"  ✓ Tell {i+1} verified: \"{quote[:60]}{'...' if len(quote) > 60 else ''}\""
             )
             score += 10
         else:
-            # Try word-overlap match: check if 70%+ of words appear in story
-            key_words = [w for w in quote_lower.split() if len(w) > 3]
-            if key_words:
-                words_found = sum(1 for w in key_words if w in story_lower)
-                ratio = words_found / len(key_words)
-                if ratio >= 0.7:
-                    details.append(
-                        f"  ~ Tell {i+1} partially verified ({ratio:.0%} word match): \"{quote[:60]}\""
-                    )
-                    score += 7
-                else:
-                    details.append(
-                        f"  ✗ Tell {i+1} NOT found in story: \"{quote[:60]}\""
-                    )
-            else:
-                details.append(f"  ✗ Tell {i+1} has no searchable quote")
+            details.append(f"  ✗ Tell {i+1} NOT found in story: \"{quote[:60]}\"")
 
     # Check true_narrative
     true_narrative = decoder.get("true_narrative", "")
