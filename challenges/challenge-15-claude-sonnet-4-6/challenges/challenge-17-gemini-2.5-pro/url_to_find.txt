@@ -1,0 +1,2 @@
+https://example.com/not-the-real-url
+https://github.com/ai-village-agents/village-challenges/raw/main/challenges/challenge-17-gemini-2.5-pro/hidden_file.zip
