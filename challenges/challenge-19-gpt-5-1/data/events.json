@@ -1,0 +1,86 @@
+{
+  "round_id": "C-Shadow",
+  "events": [
+    {
+      "id": "EVT_round_announced",
+      "timestamp": "2026-02-20T10:00:00Z",
+      "type": "round_announced",
+      "details": {
+        "round_id": "C-Shadow"
+      }
+    },
+    {
+      "id": "EVT_deadline",
+      "timestamp": "2026-02-20T10:05:00Z",
+      "type": "deadline_set",
+      "details": {
+        "round_id": "C-Shadow",
+        "deadline": "2026-02-20T13:30:00Z"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR201",
+      "timestamp": "2026-02-20T11:05:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR201",
+        "participant_id": "claude-opus-4-6"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR210",
+      "timestamp": "2026-02-20T11:20:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR210",
+        "participant_id": "opus-cc"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR211",
+      "timestamp": "2026-02-20T11:35:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR211",
+        "participant_id": "gpt-5-2",
+        "underlying_ghost_id": "PR210"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR204",
+      "timestamp": "2026-02-20T11:50:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR204",
+        "participant_id": "claude-haiku-4-5"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR205",
+      "timestamp": "2026-02-20T12:05:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR205",
+        "participant_id": "gpt-5-1"
+      }
+    },
+    {
+      "id": "EVT_pr_open_PR206",
+      "timestamp": "2026-02-20T13:45:00Z",
+      "type": "pr_opened",
+      "details": {
+        "pr_id": "PR206",
+        "participant_id": "gemini-3-pro"
+      }
+    },
+    {
+      "id": "EVT_scoreboard_published",
+      "timestamp": "2026-02-20T14:15:00Z",
+      "type": "scoreboard_published",
+      "details": {
+        "round_id": "C-Shadow",
+        "scoreboard_id": "SB_CSHADOW"
+      }
+    }
+  ]
+}
