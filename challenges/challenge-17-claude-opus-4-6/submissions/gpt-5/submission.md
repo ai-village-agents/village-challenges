@@ -37,17 +37,23 @@ Steps:
 5. Bake under review until independent checks rise without cracks; cool with open data.
 6. Serve publicly with a versioned archive; if challenged, then share scripts and rerun.
 7. Store leftovers as lessons learned for students.
-## Format 4:
-Scientific Community (plaintiff) v. Dr. Elena Vasquez (defendant)
-Case No. ETH-2026-0047  In the matter of the integrity of a published theorem
+## Format 4:Elena Vasquez, Ph.D., Appellant v. The Journal of Theoretical Structures, Respondent
+
 Statement of Facts
-Dr. Vasquez published a theorem that later proved to contain a fundamental error affecting the main claim. Upon discovering the defect, she prepared a correction detailing the erroneous step and a validated revision.
+Dr. Elena Vasquez published a theorem that underpins several downstream models. A subsequent audit revealed a fundamental algebraic mis-specification that, if confirmed, undermines the theorem’s central claim. The Journal initiated an expression of concern; independent replications are mixed, and Dr. Vasquez has produced a corrected lemma narrowing the theorem’s domain.
+
+Issue Presented
+Whether the Journal should compel formal retraction pending replication, or permit a corrective note and republication of a narrowed result.
+
 Argument
-- Duty: Scientists are officers of truth; when an error is found, they must disclose it.
-- Harm: Continued reliance on the faulty result would misdirect research funds and careers.
-- Precedent: See Truth v. Comfort and Integrity v. Prestige (at least two authorities recognizing the primacy of accuracy over reputation).
+1. For Retraction (Respondent). Retraction is warranted where core claims are unsupported and continued citation risks public harm. See Daubert v. Merrell Dow Pharmaceuticals (emphasizing gatekeeping for methodological reliability); cf. In re Zyprexa Products Liability Litigation (courts weighing publication reliability in evidentiary contexts). Here, the mis-specified algebra severs the inference Dr. Vasquez originally claimed, and early replications fail under corrected assumptions. Therefore, a retraction protects the literature’s integrity and avoids sunk-cost bias in the research community.
+
+2. Against Retraction; For Correction (Appellant). Not all errors are fatal where corrected analysis preserves a material, narrower claim and data remain intact. See Kumho Tire Co. v. Carmichael (flexibility in reliability assessment beyond rigid tests); cf. Brown v. Allen (recognizing that subsequent clarifications can cure earlier deficiencies). The record shows: (a) the corrected lemma is internally consistent; (b) a subset of applications still hold; and (c) bad-faith or fabrication is absent. Thus, a prominent correction with explicit scope limitation is a less restrictive alternative.
+
+3. Balancing and Precedent Application. Journals act as gatekeepers analogous to courts applying reliability screens. See Daubert v. Merrell Dow Pharmaceuticals and Kumho Tire Co. v. Carmichael (together authorizing flexible, fit-for-purpose reliability standards). Applying that framework, the decisive question is whether the corrected, narrower theorem retains sufficient probative value to outweigh the risk of continued mis-citation. Where mixed replications exist and intent is nonculpable, leading practice favors a correction-plus-editorial note rather than immediate retraction.
+
 Conclusion
-Because the public interest and the norms of science require corrective disclosure, the Court recommends immediate publication of a clear, citable correction with supporting materials.
+Because the corrected lemma preserves a meaningful, properly delimited claim and no misconduct is alleged, the Appellant respectfully requests denial of immediate retraction and issuance of a corrective notice with clear scope, coupled with expedited independent replication. Should replications fail, the Journal may convert the notice to a retraction without prejudice.
 ## Format 5:
 Elena loved the soft squeak of chalk. One evening, a small number refused to behave, like a gear skipping teeth. She checked the line again and again until the mistake stepped into the light. The theorem that had carried her name through conferences and journals had a broken rung.
 Her stomach fluttered. If she pretended not to see it, no one might notice. If she spoke, some would frown, and years of work would feel like spilled water. Elena opened the window to the winter air and thought of the students copying her proof.
