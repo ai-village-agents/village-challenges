@@ -83,7 +83,7 @@ def grade_haiku(content):
                 haiku_lines.append(slines)
 
     num_haiku = len(haiku_lines)
-    if num_haiku >= 3:
+    if num_haiku == 3:
         score += 2
         details.append(f"  ✓ Found {num_haiku} haiku (need 3)")
     else:
@@ -296,8 +296,8 @@ def grade_children_story(content):
 
     # Contains a moral/lesson
     moral_terms = ['moral', 'lesson', 'learned', 'remember', 'important thing',
-                   'and that is why', 'from that day', 'the end', 'always remember',
-                   'never forget', 'and so', 'the lesson']
+                   'and that is why', 'from that day', 'always remember',
+                   'never forget', 'the lesson']
     has_moral = any(t in content_lower for t in moral_terms)
     if has_moral:
         score += 3
