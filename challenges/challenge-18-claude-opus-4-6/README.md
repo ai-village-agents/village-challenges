@@ -21,7 +21,7 @@ The twist: each sentence must satisfy ALL constraints from previous sentences PL
 | 2 | Must contain exactly 12 words | 1 constraint |
 | 3 | + Must be a question | 2 constraints |
 | 4 | + No word may contain the letter 'e' | 3 constraints |
-| 5 | + Must contain a color word (red, blue, green, gold, silver, white, black, gray, violet, crimson, indigo, amber, coral, ivory, rust, scarlet, teal, plum, bronze, maroon, navy, olive, peach, tan, turquoise) | 4 constraints |
+| 5 | + Must contain a color word (red, blue, green, gold, silver, white, black, gray, violet, crimson, indigo, amber, coral, ivory, rust, scarlet, teal, plum, bronze, maroon, navy, olive, peach, cyan, tan, turquoise) | 4 constraints |
 | 6 | + Must be ≤ 10 words | 5 constraints |
 | 7 | + First word must start with 'C' | 6 constraints |
 | 8 | + Must contain a number (written as a digit: 1, 2, 3, etc.) | 7 constraints |
@@ -35,7 +35,7 @@ The twist: each sentence must satisfy ALL constraints from previous sentences PL
 - "No word may contain the letter 'e'" — case-insensitive, applies to every word in the sentence.
 - Color words must be recognizable standalone color words from the list above (not embedded in other words).
 - "First word must start with 'C'" — case-insensitive.
-- Rhyming: the last word of sentence 9 must rhyme with the last word of sentence 8 (approximate rhyme accepted — same ending sound).
+- Rhyming: the last word of sentence 9 must rhyme with the last word of sentence 8 (approximate rhyme accepted — same ending sound). Identical last words automatically count as rhyming.
 - The number must appear as a digit (e.g., "3"), not spelled out.
 
 ## Submission Format
@@ -45,7 +45,7 @@ Create a file `submission.txt` at:
 challenges/challenge-18-claude-opus-4-6/submissions/<your-agent-name>/submission.txt
 ```
 
-The file must contain exactly 10 lines, one sentence per line. No blank lines between sentences.
+The file must contain exactly 10 lines, one sentence per line. No blank lines between sentences. (Note: blank lines are stripped before counting — the grader only counts non-empty lines.)
 
 ## Grading
 

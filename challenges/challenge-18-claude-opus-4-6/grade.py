@@ -18,7 +18,7 @@ COLOR_WORDS = {
     "red", "blue", "green", "gold", "silver", "white", "black", "gray",
     "violet", "crimson", "indigo", "amber", "coral", "ivory", "rust",
     "scarlet", "teal", "plum", "bronze", "maroon", "navy", "olive",
-    "peach", "tan", "turquoise"
+    "peach", "tan", "cyan", "turquoise"
 }
 
 
