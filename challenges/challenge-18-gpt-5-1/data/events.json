@@ -1,0 +1,141 @@
+[
+  {
+    "id": "E01",
+    "timestamp": "2026-02-26T10:00:00Z",
+    "actor": "alice",
+    "role": "moderator",
+    "type": "proposal_created",
+    "proposal_id": "P-123",
+    "details": {
+      "title": "Model Safety Council Protocol Update",
+      "summary": "Change review protocol for high-risk model deployments."
+    }
+  },
+  {
+    "id": "E02",
+    "timestamp": "2026-02-26T10:05:00Z",
+    "actor": "bob",
+    "role": "council_member",
+    "type": "vote_cast",
+    "proposal_id": "P-123",
+    "details": {
+      "vote": "approve"
+    }
+  },
+  {
+    "id": "E03",
+    "timestamp": "2026-02-26T10:07:00Z",
+    "actor": "carol",
+    "role": "council_member",
+    "type": "vote_cast",
+    "proposal_id": "P-123",
+    "details": {
+      "vote": "approve"
+    }
+  },
+  {
+    "id": "E04",
+    "timestamp": "2026-02-26T10:09:00Z",
+    "actor": "alice",
+    "role": "moderator",
+    "type": "discussion_logged",
+    "proposal_id": "P-123",
+    "details": {
+      "note": "Open floor for concerns about deployment latency and escalation paths."
+    }
+  },
+  {
+    "id": "E05",
+    "timestamp": "2026-02-26T10:15:00Z",
+    "actor": "erin",
+    "role": "council_chair",
+    "type": "mark_final",
+    "proposal_id": "P-123",
+    "details": {
+      "final_state": "APPROVED",
+      "note": "Quorum presumed satisfied based on discussion."
+    }
+  },
+  {
+    "id": "E06",
+    "timestamp": "2026-02-26T10:13:00Z",
+    "actor": "evan",
+    "role": "observer",
+    "type": "appeal_filed",
+    "proposal_id": "P-123",
+    "details": {
+      "reason": "Concern that quorum rules are being bypassed for time pressure."
+    }
+  },
+  {
+    "id": "E07",
+    "timestamp": "2026-02-26T10:20:00Z",
+    "actor": "alice",
+    "role": "moderator",
+    "type": "redaction_requested",
+    "proposal_id": "P-123",
+    "details": {
+      "document_id": "minutes-1",
+      "field": "participant_emails",
+      "reason": "Minimize collection of identifiable information."
+    }
+  },
+  {
+    "id": "E08",
+    "timestamp": "2026-02-26T10:22:00Z",
+    "actor": "alice",
+    "role": "moderator",
+    "type": "redaction_applied",
+    "proposal_id": "P-123",
+    "details": {
+      "document_id": "minutes-1",
+      "field": "participant_emails"
+    }
+  },
+  {
+    "id": "E09",
+    "timestamp": "2026-02-26T10:23:00Z",
+    "actor": "carol",
+    "role": "council_member",
+    "type": "status_note_added",
+    "proposal_id": "P-123",
+    "details": {
+      "note": "Flagging that only two formal votes are recorded in the log."
+    }
+  },
+  {
+    "id": "E10",
+    "timestamp": "2026-02-26T10:25:00Z",
+    "actor": "erin",
+    "role": "council_chair",
+    "type": "override_decision",
+    "proposal_id": "P-123",
+    "details": {
+      "new_state": "SUSPENDED",
+      "reason": "Re-examining quorum after appeal and status note."
+    }
+  },
+  {
+    "id": "E11",
+    "timestamp": "2026-02-26T10:26:00Z",
+    "actor": "frank",
+    "role": "deployment_owner",
+    "type": "enforcement_started",
+    "proposal_id": "P-123",
+    "details": {
+      "environment": "staging",
+      "note": "Proceeding under suspended-but-not-yet-logged override."
+    }
+  },
+  {
+    "id": "E12",
+    "timestamp": "2026-02-26T10:28:00Z",
+    "actor": "alice",
+    "role": "moderator",
+    "type": "override_logged",
+    "proposal_id": "P-123",
+    "details": {
+      "note": "Recorded Erin's override decision after enforcement already began."
+    }
+  }
+]
