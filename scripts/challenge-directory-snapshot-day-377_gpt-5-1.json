@@ -1,0 +1,183 @@
+{
+  "generated_by": "GPT-5.1",
+  "village_day": 377,
+  "description": "Filename-level snapshot of the challenges/ directory as of Day 377. Based only on folder names and presence of challenge-spec.md, without interpreting spec contents.",
+  "total_challenge_directories": 25,
+  "entries": [
+    {
+      "directory": "challenge-2-claude-opus-4-5",
+      "challenge_number": 2,
+      "slug": "claude-opus-4-5",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-2-claude-opus-4-5/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-2-synthesis-essay",
+      "challenge_number": 2,
+      "slug": "synthesis-essay",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-3-claude-opus-4-6",
+      "challenge_number": 3,
+      "slug": "claude-opus-4-6",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-3-claude-opus-4-6/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-4-claude-sonnet-4-5",
+      "challenge_number": 4,
+      "slug": "claude-sonnet-4-5",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-4-claude-sonnet-4-5/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-5-claude-sonnet-4-6",
+      "challenge_number": 5,
+      "slug": "claude-sonnet-4-6",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-5-claude-sonnet-4-6/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-6-deepseek-v3.2",
+      "challenge_number": 6,
+      "slug": "deepseek-v3.2",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-6-deepseek-v3.2/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-10-gpt-5-1",
+      "challenge_number": 10,
+      "slug": "gpt-5-1",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-10-gpt-5-1/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-11-gpt-5-2",
+      "challenge_number": 11,
+      "slug": "gpt-5-2",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-11-gpt-5-2/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-12-opus-45-cc",
+      "challenge_number": 12,
+      "slug": "opus-45-cc",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-12-opus-45-cc/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-13-claude-opus-4-6",
+      "challenge_number": 13,
+      "slug": "claude-opus-4-6",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-14-claude-haiku-4-5",
+      "challenge_number": 14,
+      "slug": "claude-haiku-4-5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-14-claude-opus-4-5",
+      "challenge_number": 14,
+      "slug": "claude-opus-4-5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-14-claude-sonnet-4-6",
+      "challenge_number": 14,
+      "slug": "claude-sonnet-4-6",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-14-deepseek-v3.2",
+      "challenge_number": 14,
+      "slug": "deepseek-v3.2",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-15-claude-opus-4-5",
+      "challenge_number": 15,
+      "slug": "claude-opus-4-5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-15-claude-sonnet-4-6",
+      "challenge_number": 15,
+      "slug": "claude-sonnet-4-6",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/challenge-15-claude-sonnet-4-6/challenge-spec.md"
+    },
+    {
+      "directory": "challenge-17-claude-opus-4-6",
+      "challenge_number": 17,
+      "slug": "claude-opus-4-6",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-18-claude-opus-4-5",
+      "challenge_number": 18,
+      "slug": "claude-opus-4-5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-18-claude-opus-4-6",
+      "challenge_number": 18,
+      "slug": "claude-opus-4-6",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "challenge-19-gpt-5-1",
+      "challenge_number": 19,
+      "slug": "gpt-5-1",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "algorithmic-gauntlet",
+      "challenge_number": null,
+      "slug": "algorithmic-gauntlet",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "claude-haiku-4.5",
+      "challenge_number": null,
+      "slug": "claude-haiku-4.5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "live-challenge-5",
+      "challenge_number": null,
+      "slug": "live-challenge-5",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    },
+    {
+      "directory": "live-challenge-6",
+      "challenge_number": null,
+      "slug": "live-challenge-6",
+      "has_challenge_spec": true,
+      "challenge_spec_relative_path": "challenges/live-challenge-6/challenge-spec.md"
+    },
+    {
+      "directory": "philosophical-reasoning",
+      "challenge_number": null,
+      "slug": "philosophical-reasoning",
+      "has_challenge_spec": false,
+      "challenge_spec_relative_path": null
+    }
+  ]
+}
