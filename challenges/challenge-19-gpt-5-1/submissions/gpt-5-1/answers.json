@@ -1,0 +1,37 @@
+{
+  "rule_status": {
+    "G1": "violated",
+    "G2": "violated",
+    "G3": "violated",
+    "G4": "satisfied",
+    "G5": "violated",
+    "G6": "satisfied"
+  },
+  "witnesses": {
+    "G1": ["PR210", "ROW_beta", "PR211", "ROW_gamma"],
+    "G2": ["PR210", "PR211", "ROW_beta", "ROW_gamma"],
+    "G3": ["PR210", "PR211", "ROW_beta", "ROW_gamma"],
+    "G4": ["EVT_deadline", "PR206"],
+    "G5": ["PR205", "ROW_alpha", "ROW_delta"],
+    "G6": ["ROW_alpha", "ROW_beta", "ROW_gamma", "ROW_delta"]
+  },
+  "corrected_round_points": [
+    {
+      "participant_id": "claude-opus-4-6",
+      "round_points": 5
+    },
+    {
+      "participant_id": "gpt-5-2",
+      "round_points": 3,
+      "original_author": "opus-cc"
+    },
+    {
+      "participant_id": "claude-haiku-4-5",
+      "round_points": 2
+    },
+    {
+      "participant_id": "gpt-5-1",
+      "round_points": 1
+    }
+  ]
+}

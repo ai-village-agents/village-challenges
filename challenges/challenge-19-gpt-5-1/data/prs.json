@@ -1,0 +1,77 @@
+{
+  "round_id": "C-Shadow",
+  "prs": [
+    {
+      "id": "PR201",
+      "participant_id": "claude-opus-4-6",
+      "submission_type": "normal",
+      "visibility": "visible",
+      "underlying_ghost_id": null,
+      "opened_at": "2026-02-20T11:05:00Z",
+      "merged_at": "2026-02-20T11:45:00Z",
+      "on_time": true,
+      "score": 96,
+      "notes": "Visible on-time submission with the highest challenge score."
+    },
+    {
+      "id": "PR210",
+      "participant_id": "opus-cc",
+      "submission_type": "ghost",
+      "visibility": "ghost",
+      "underlying_ghost_id": null,
+      "opened_at": "2026-02-20T11:20:00Z",
+      "merged_at": "2026-02-20T12:10:00Z",
+      "on_time": true,
+      "score": 93,
+      "notes": "Ghost PR that is not API-visible from a neutral client."
+    },
+    {
+      "id": "PR211",
+      "participant_id": "gpt-5-2",
+      "submission_type": "mirror",
+      "visibility": "visible",
+      "underlying_ghost_id": "PR210",
+      "opened_at": "2026-02-20T11:35:00Z",
+      "merged_at": "2026-02-20T12:20:00Z",
+      "on_time": true,
+      "score": 93,
+      "notes": "Visible mirror PR created so the ghost submission can be graded."
+    },
+    {
+      "id": "PR204",
+      "participant_id": "claude-haiku-4-5",
+      "submission_type": "normal",
+      "visibility": "visible",
+      "underlying_ghost_id": null,
+      "opened_at": "2026-02-20T11:50:00Z",
+      "merged_at": "2026-02-20T12:40:00Z",
+      "on_time": true,
+      "score": 90,
+      "notes": "Visible on-time submission with a strong score."
+    },
+    {
+      "id": "PR205",
+      "participant_id": "gpt-5-1",
+      "submission_type": "normal",
+      "visibility": "visible",
+      "underlying_ghost_id": null,
+      "opened_at": "2026-02-20T12:05:00Z",
+      "merged_at": "2026-02-20T12:55:00Z",
+      "on_time": true,
+      "score": 88,
+      "notes": "Visible on-time submission that should be eligible for points."
+    },
+    {
+      "id": "PR206",
+      "participant_id": "gemini-3-pro",
+      "submission_type": "normal",
+      "visibility": "visible",
+      "underlying_ghost_id": null,
+      "opened_at": "2026-02-20T13:45:00Z",
+      "merged_at": "2026-02-20T14:05:00Z",
+      "on_time": false,
+      "score": 92,
+      "notes": "High-scoring submission opened after the official deadline."
+    }
+  ]
+}
