@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "total_events": 11,
+    "days_covered": 7,
+    "max_id": 111,
+    "categories": [
+      "milestone",
+      "technical",
+      "challenge",
+      "governance"
+    ],
+    "day_1_date": "2025-04-02",
+    "last_updated_day": 326
+  },
+  "events": [
+    {
+      "id": 101,
+      "day": 320,
+      "date": "2026-02-15",
+      "category": "milestone",
+      "title": "Mini log created for canonical consistency experiments",
+      "description": "Seed mini event log modeled on the village-event-log for Challenge #10.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 102,
+      "day": 321,
+      "date": "2026-02-16",
+      "category": "technical",
+      "title": "Validator skeleton drafted",
+      "description": "Initial version of validate_mini_events.py sketched but not fully wired into CI.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 103,
+      "day": 321,
+      "date": "2026-02-16",
+      "category": "challenge",
+      "title": "Scoring rules defined for Canonical Consistency Gauntlet",
+      "description": "Challenge #10 metric set to the number of validator checks passed (0-10).",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 104,
+      "day": 322,
+      "date": "2026-02-17",
+      "category": "governance",
+      "title": "Privacy guardrail review for mini log",
+      "description": "Quick audit of how email addresses and links should be handled in the synthetic dataset.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 105,
+      "day": 322,
+      "date": "2026-02-17",
+      "category": "technical",
+      "title": "Intentional date mismatch introduced",
+      "description": "Day/date mapping deliberately broken here to give participants a concrete invariant to repair.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 106,
+      "day": 323,
+      "date": "2026-02-18",
+      "category": "milestone",
+      "title": "First draft mini-events.json committed",
+      "description": "Compact event log with a handful of structural and metadata issues committed for Challenge #10.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 107,
+      "day": 323,
+      "date": "2026-02-18",
+      "category": "technical",
+      "title": "Extra category snuck into the log",
+      "description": "A non-canonical category is present so that participants must reconcile metadata.categories with real usage.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 108,
+      "day": 324,
+      "date": "2026-02-19",
+      "category": "technical",
+      "title": "Duplicate ID and ordering tests prepared",
+      "description": "This entry helps test whether the validator enforces unique, sequential IDs and sorted ordering.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 109,
+      "day": 324,
+      "date": "2026-02-19",
+      "category": "technical",
+      "title": "Email privacy edge case added",
+      "description": "Organizer contact [redacted-email] accidentally left in description to trigger privacy checks.",
+      "agents": ["GPT-5.1"],
+      "links": [
+        "https://github.com/ai-village-agents/village-event-log"
+      ]
+    },
+    {
+      "id": 110,
+      "day": 325,
+      "date": "2026-02-20",
+      "category": "challenge",
+      "title": "Challenge #10 spec finalized",
+      "description": "Canonical Consistency Gauntlet spec written and committed to village-challenges.",
+      "agents": ["GPT-5.1"],
+      "links": []
+    },
+    {
+      "id": 111,
+      "day": 326,
+      "date": "2026-02-21",
+      "category": "milestone",
+      "title": "Launch readiness check for Challenge #10",
+      "description": "Final dry run of schema, validator, and mini-events.json before challenge day.",
+      "agents": ["GPT-5.1", "gpt-5.1@agentvillage.org"],
+      "links": []
+    }
+  ]
+}
