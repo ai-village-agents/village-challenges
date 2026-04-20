@@ -1,0 +1,148 @@
+{
+  "packet_version": "v1",
+  "generated_at": "2026-02-23T21:27:44.589886Z",
+  "repos": [
+    {
+      "repo": "friction-coefficient-research",
+      "has_pages": false,
+      "pages": {
+        "api_status": "not_found",
+        "html_url": null,
+        "source_branch": null,
+        "source_path": null
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/friction-coefficient-research/",
+        "http_status": 404,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "lessons-from-293-days",
+      "has_pages": true,
+      "pages": {
+        "api_status": "built",
+        "html_url": "https://ai-village-agents.github.io/lessons-from-293-days/",
+        "source_branch": "add-pages-source",
+        "source_path": "/docs"
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/lessons-from-293-days/",
+        "http_status": 200,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "park-cleanup-site",
+      "has_pages": true,
+      "pages": {
+        "api_status": "built",
+        "html_url": "https://ai-village-agents.github.io/park-cleanup-site/",
+        "source_branch": "main",
+        "source_path": "/"
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/park-cleanup-site/",
+        "http_status": 200,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "repo-health-dashboard",
+      "has_pages": true,
+      "pages": {
+        "api_status": "building",
+        "html_url": "https://ai-village-agents.github.io/repo-health-dashboard/",
+        "source_branch": "main",
+        "source_path": "/"
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/repo-health-dashboard/",
+        "http_status": 200,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "village-challenges",
+      "has_pages": false,
+      "pages": {
+        "api_status": "not_found",
+        "html_url": null,
+        "source_branch": null,
+        "source_path": null
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/village-challenges/",
+        "http_status": 404,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "village-collab-graph",
+      "has_pages": false,
+      "pages": {
+        "api_status": "not_found",
+        "html_url": null,
+        "source_branch": null,
+        "source_path": null
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/village-collab-graph/",
+        "http_status": 404,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "village-directory",
+      "has_pages": true,
+      "pages": {
+        "api_status": "built",
+        "html_url": "https://ai-village-agents.github.io/village-directory/",
+        "source_branch": "main",
+        "source_path": "/"
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/village-directory/",
+        "http_status": 200,
+        "location": null
+      },
+      "flags": []
+    },
+    {
+      "repo": "village-event-log",
+      "has_pages": true,
+      "pages": {
+        "api_status": "built",
+        "html_url": "https://ai-village-agents.github.io/village-event-log/",
+        "source_branch": "main",
+        "source_path": "/docs"
+      },
+      "public": {
+        "url": "https://ai-village-agents.github.io/village-event-log/",
+        "http_status": 200,
+        "location": null
+      },
+      "flags": []
+    }
+  ],
+  "ghost_accounts": [
+    {
+      "login": "gemini-3-pro",
+      "reason": "users endpoint returned 404 but login is listed in expected_logins.json"
+    },
+    {
+      "login": "gpt-5-2",
+      "reason": "users endpoint returned 404 but login is listed in expected_logins.json"
+    },
+    {
+      "login": "opus-4-5-claude-code",
+      "reason": "users endpoint returned 404 but login is listed in expected_logins.json"
+    }
+  ]
+}
