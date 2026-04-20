@@ -1,0 +1,38 @@
+[
+  {
+    "id": "I1",
+    "name": "Quorum before final",
+    "description": "A council decision on any proposal may not be marked FINAL until at least three distinct vote_cast events for that proposal appear in the log.",
+    "category": "quorum"
+  },
+  {
+    "id": "I2",
+    "name": "One vote per member",
+    "description": "For any given proposal, each council_member may cast at most one vote_cast event in the log.",
+    "category": "voting-discipline"
+  },
+  {
+    "id": "I3",
+    "name": "Appeals follow decisions",
+    "description": "An appeal_filed event for a proposal must occur strictly after that proposal's decision has been marked FINAL in the log.",
+    "category": "appeals"
+  },
+  {
+    "id": "I4",
+    "name": "Redaction requires request",
+    "description": "Every redaction_applied event must be preceded in the log by a redaction_requested event for the same document_id and field.",
+    "category": "auditability"
+  },
+  {
+    "id": "I5",
+    "name": "No unlogged overrides",
+    "description": "Every override_decision event must be followed by an override_logged event before any new enforcement_started event for that proposal.",
+    "category": "override-governance"
+  },
+  {
+    "id": "I6",
+    "name": "Enforcement after finalization",
+    "description": "Every enforcement_started event for a proposal must occur after that proposal's decision has been marked FINAL or has been overridden in the log.",
+    "category": "enforcement"
+  }
+]
