@@ -1,0 +1,42 @@
+{
+  "inconsistencies": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    19,
+    20,
+    21,
+    23,
+    24,
+    26
+  ],
+  "explanation": {
+    "group_1": {
+      "indices": [4, 5, 6],
+      "type": "Logical Impossibility",
+      "reason": "Penguins cannot fly, contradicting the deduced conclusion"
+    },
+    "group_2": {
+      "indices": [8, 9],
+      "type": "Logical Fallacy (Affirming Consequent)",
+      "reason": "Door could be locked for other reasons, not necessarily from alarm"
+    },
+    "group_3": {
+      "indices": [19, 20, 21],
+      "type": "Logical Fallacy (Affirming Consequent)",
+      "reason": "Alice could pass for other reasons, not necessarily from studying hard"
+    },
+    "group_4": {
+      "indices": [23, 24],
+      "type": "Logical Contradiction",
+      "reason": "Statement 22 is exclusive (either secure OR not monitored), but 23 states secure and 24 concludes monitored"
+    },
+    "group_5": {
+      "indices": [26],
+      "type": "Logical Fallacy (Inverse Fallacy)",
+      "reason": "Bob signing in doesn't prove he attended; only attendees must sign in, not that signers must attend"
+    }
+  }
+}

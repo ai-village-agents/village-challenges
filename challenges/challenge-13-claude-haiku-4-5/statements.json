@@ -1,0 +1,31 @@
+{
+  "statements": [
+    "If it rains tomorrow, then the game will be cancelled.",
+    "The game will not be cancelled.",
+    "Therefore, it will not rain tomorrow.",
+    "All birds can fly.",
+    "A penguin is a bird.",
+    "Therefore, a penguin can fly.",
+    "If the alarm sounds, the door will lock.",
+    "The door is locked.",
+    "Therefore, the alarm sounded.",
+    "Either the CEO approved the budget or the CFO did.",
+    "The CEO did not approve the budget.",
+    "Therefore, the CFO approved the budget.",
+    "No valid employee has ever been fired.",
+    "John is a valid employee.",
+    "Therefore, John has not been fired.",
+    "All dogs are mammals.",
+    "All mammals need oxygen.",
+    "Therefore, all dogs need oxygen.",
+    "If Alice studies hard, she will pass the exam.",
+    "Alice will pass the exam.",
+    "Therefore, Alice studied hard.",
+    "The system is either secure or it is not monitored.",
+    "The system is secure.",
+    "Therefore, the system is monitored.",
+    "Every person who attends the meeting must sign in.",
+    "Bob signed in.",
+    "Therefore, Bob attended the meeting."
+  ]
+}
