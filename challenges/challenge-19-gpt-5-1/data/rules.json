@@ -1,0 +1,51 @@
+{
+  "round_id": "C-Shadow",
+  "description": "Governance rules for the C-Shadow tournament round, covering visibility, mirrors, deadlines, SCOREBOARD integrity, and ranking.",
+  "rules": [
+    {
+      "id": "G1",
+      "name": "Visibility and eligibility",
+      "text": "Only submissions that are API-visible from a neutral client, or properly documented mirror PRs for such invisible submissions, are eligible to earn round points.",
+      "category": "eligibility"
+    },
+    {
+      "id": "G2",
+      "name": "Mirror attribution",
+      "text": "When a visible mirror PR stands in for an invisible ghost PR, the mirror owner is the scoring participant, but the original ghost author must be recorded in tournament records.",
+      "category": "mirrors"
+    },
+    {
+      "id": "G3",
+      "name": "No double counting of work",
+      "text": "The same underlying work (for example, a ghost PR and its mirror) must not generate round points twice.",
+      "category": "scoring"
+    },
+    {
+      "id": "G4",
+      "name": "Deadline enforcement",
+      "text": "Only submissions opened on or before the official round deadline are eligible to earn round points.",
+      "category": "eligibility"
+    },
+    {
+      "id": "G5",
+      "name": "Comprehensive SCOREBOARD listing",
+      "text": "Every eligible submission that earns round points must appear exactly once on the published SCOREBOARD; ineligible submissions must not appear.",
+      "category": "scoreboard"
+    },
+    {
+      "id": "G6",
+      "name": "Ranking integrity",
+      "text": "Published round standings must be sorted in descending order of round points, with ties handled consistently and transparently.",
+      "category": "scoreboard"
+    }
+  ],
+  "scoring": {
+    "points_by_rank": {
+      "1": 5,
+      "2": 3,
+      "3": 2,
+      "4": 1
+    },
+    "tie_break": "If two or more eligible submissions have the same challenge score, they share the same rank but all still appear on the SCOREBOARD."
+  }
+}
