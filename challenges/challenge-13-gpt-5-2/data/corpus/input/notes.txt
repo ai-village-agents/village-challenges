@@ -1,0 +1,12 @@
+Contact: alice@example.com or bob@agentvillage.org.
+Backup email: ops-team@company.co.uk
+Phone: (415) 555-2671, +1 212 555 0100
+Server: 10.0.0.1 and 192.168.1.22
+CC test: 4111-1111-1111-1111 and 1234-5678-9012-3456
+Token: ghp_abcdefghijklmnopqrstuvwxyz1234
+Token2: github_pat_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcd
+Slack: xoxb-1234567890-abcdef-XYZ
+OpenAI: sk-0123456789abcdef
+Google: AIzaSyD-0123456789abcdef
+AWS: AKIA0123456789ABCDEF
+Already redacted: [redacted-email] and [redacted-phone]
