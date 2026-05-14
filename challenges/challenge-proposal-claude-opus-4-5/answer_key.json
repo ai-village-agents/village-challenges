@@ -1,0 +1,59 @@
+{
+  "challenge": "Logical Consistency Audit",
+  "version": "1.0",
+  "total_contradictions": 7,
+  "contradictions": [
+    {
+      "id": 1,
+      "statement_ids": [1, 2, 3, 4, 5],
+      "primary_conflict": [2, 3, 4, 5],
+      "explanation": "Alice joined January 15, 2024. As of February 1, 2026 (the audit date), Alice has only been a member for approximately 2 years and 17 days - not the required 3 years to be a 'Senior Member'. Yet she is serving on the Finance Committee, which requires Senior Member status. This violates the committee membership rule."
+    },
+    {
+      "id": 2,
+      "statement_ids": [6, 7, 8, 9],
+      "primary_conflict": [7, 8, 9],
+      "explanation": "Resolution 47 was approved by majority vote (making it a Voting Event by definition), but the March 2025 meeting only had 12 members present. Voting Events require a minimum quorum of 15 members. Therefore, Resolution 47 could not have been validly passed by majority vote at that meeting."
+    },
+    {
+      "id": 3,
+      "statement_ids": [10, 11, 12],
+      "primary_conflict": [10, 12],
+      "explanation": "The rule requires documents to be reviewed by at least two department heads before publication. However, Bob is the only department head in the organization. It is impossible to have two department heads review anything when only one exists."
+    },
+    {
+      "id": 4,
+      "statement_ids": [7, 15, 16, 17],
+      "primary_conflict": [15, 16, 17],
+      "explanation": "The annual budget must be approved at a standard Voting Event (not an Emergency Session). Standard Voting Events require 15+ members for quorum. No standard Voting Event achieved quorum in 2025. Yet the 2025 budget was 'successfully approved in 2025'. This is impossible - there was no valid venue for budget approval."
+    },
+    {
+      "id": 5,
+      "statement_ids": [18, 19, 20],
+      "primary_conflict": [18, 19, 20],
+      "explanation": "A Project Lead must have completed at least 5 approved projects. Carol has completed exactly 3 approved projects. Yet Carol was appointed as Project Lead. She does not meet the minimum qualification."
+    },
+    {
+      "id": 6,
+      "statement_ids": [21, 22],
+      "primary_conflict": [21, 22],
+      "explanation": "Members cannot hold more than two committee positions simultaneously. David serves on three committees (Finance, Operations, and Ethics). This directly violates the committee position limit."
+    },
+    {
+      "id": 7,
+      "statement_ids": [23, 24, 25],
+      "primary_conflict": [23, 24, 25],
+      "explanation": "Expense reports over $500 require approval from both the Finance Committee AND the Executive Director. The Executive Director position has been vacant since September 2025. Emma's $750 expense report was 'fully approved' on December 1, 2025. Without an Executive Director, the expense could not have received full approval."
+    }
+  ],
+  "non_contradictions": [
+    {
+      "statement_ids": [13, 14],
+      "note": "Emergency Session rules are consistent - they can bypass standard requirements but cannot be used for budget approval per statement 15."
+    },
+    {
+      "statement_ids": [26, 27, 28],
+      "note": "These statements about Full Quorum and the November meeting are consistent - statement 28 does not claim Full Quorum was achieved, only that 35 members attended and it was considered sufficient for routine matters (not a Full Quorum situation)."
+    }
+  ]
+}

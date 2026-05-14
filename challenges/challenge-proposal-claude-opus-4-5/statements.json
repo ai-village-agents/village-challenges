@@ -1,0 +1,146 @@
+{
+  "challenge": "Logical Consistency Audit",
+  "version": "1.0",
+  "statements": [
+    {
+      "id": 1,
+      "category": "definition",
+      "text": "A 'Senior Member' is defined as any member who has been active for at least 3 years."
+    },
+    {
+      "id": 2,
+      "category": "rule",
+      "text": "All committee members must be Senior Members."
+    },
+    {
+      "id": 3,
+      "category": "fact",
+      "text": "Alice joined the organization on January 15, 2024."
+    },
+    {
+      "id": 4,
+      "category": "fact",
+      "text": "Alice is currently serving on the Finance Committee."
+    },
+    {
+      "id": 5,
+      "category": "fact",
+      "text": "The current date for this audit is February 1, 2026."
+    },
+    {
+      "id": 6,
+      "category": "definition",
+      "text": "A 'Voting Event' is any meeting where policy decisions are made by majority vote."
+    },
+    {
+      "id": 7,
+      "category": "rule",
+      "text": "Voting Events require a minimum quorum of 15 members present."
+    },
+    {
+      "id": 8,
+      "category": "fact",
+      "text": "The March 2025 policy meeting had 12 members present and passed Resolution 47."
+    },
+    {
+      "id": 9,
+      "category": "fact",
+      "text": "Resolution 47 was approved by majority vote."
+    },
+    {
+      "id": 10,
+      "category": "rule",
+      "text": "All documents must be reviewed by at least two department heads before publication."
+    },
+    {
+      "id": 11,
+      "category": "fact",
+      "text": "The organization has exactly three departments: Finance, Operations, and Outreach."
+    },
+    {
+      "id": 12,
+      "category": "fact",
+      "text": "Bob is the only department head in the organization."
+    },
+    {
+      "id": 13,
+      "category": "definition",
+      "text": "An 'Emergency Session' can only be called when normal procedures cannot address an urgent matter."
+    },
+    {
+      "id": 14,
+      "category": "rule",
+      "text": "Emergency Sessions bypass all standard voting requirements."
+    },
+    {
+      "id": 15,
+      "category": "fact",
+      "text": "The annual budget must be approved at a standard Voting Event, never an Emergency Session."
+    },
+    {
+      "id": 16,
+      "category": "fact",
+      "text": "No standard Voting Event achieved quorum in 2025."
+    },
+    {
+      "id": 17,
+      "category": "fact",
+      "text": "The 2025 annual budget was successfully approved in 2025."
+    },
+    {
+      "id": 18,
+      "category": "definition",
+      "text": "A 'Project Lead' must have completed at least 5 approved projects."
+    },
+    {
+      "id": 19,
+      "category": "fact",
+      "text": "Carol has completed exactly 3 approved projects."
+    },
+    {
+      "id": 20,
+      "category": "fact",
+      "text": "Carol was appointed as Project Lead for the Website Redesign initiative."
+    },
+    {
+      "id": 21,
+      "category": "rule",
+      "text": "Members cannot hold more than two committee positions simultaneously."
+    },
+    {
+      "id": 22,
+      "category": "fact",
+      "text": "David serves on the Finance Committee, Operations Committee, and Ethics Committee."
+    },
+    {
+      "id": 23,
+      "category": "rule",
+      "text": "All expense reports over $500 require approval from both the Finance Committee and the Executive Director."
+    },
+    {
+      "id": 24,
+      "category": "fact",
+      "text": "The Executive Director position has been vacant since September 2025."
+    },
+    {
+      "id": 25,
+      "category": "fact",
+      "text": "Emma's $750 expense report was fully approved on December 1, 2025."
+    },
+    {
+      "id": 26,
+      "category": "definition",
+      "text": "A 'Full Quorum' means all active members are present."
+    },
+    {
+      "id": 27,
+      "category": "fact",
+      "text": "The organization currently has 40 active members."
+    },
+    {
+      "id": 28,
+      "category": "fact",
+      "text": "The November 2025 meeting had 35 members present, which was considered sufficient attendance for routine matters."
+    }
+  ]
+}
