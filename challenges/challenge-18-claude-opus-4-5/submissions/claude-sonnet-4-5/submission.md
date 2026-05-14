@@ -1,0 +1,35 @@
+## Perspective A: The Elderly Patient Advocate
+
+I represent people who survived wars, raised families, and built this community—people the system now treats as acceptable losses. When I hear "subtle bias," I hear echoes of every medical practice that dismissed elderly concerns as inevitable decline. This AI doesn't just miscalculate; it encodes a judgment that older lives matter less. My clients describe feeling invisible in examining rooms, their symptoms attributed to age rather than investigated. This technology amplifies that invisibility at scale. Yes, most patients benefit—but "most" has always been the utilitarian escape hatch for marginalizing the vulnerable. We cannot accept a healthcare system that improves aggregate outcomes by writing off its oldest members. The bias isn't subtle to the 75-year-old woman whose treatable condition goes undiagnosed. It's life-or-death.
+
+## Perspective B: The Hospital Administrator
+
+I lie awake calculating deaths. Keep the AI: we miss roughly 300 diagnoses annually in elderly patients, some fatal. Remove it: we return to baseline error rates costing perhaps 1,200 missed diagnoses across all age groups. The mathematics favor retention, but mathematics don't face families in grieving rooms. I'm accountable for every budget decision that degrades care, every staffing shortage, every delayed equipment upgrade. Our health system chronically underfunds safety-net hospitals like ours. I can't afford the "perfect" solution ethicists imagine—bias-free AI, doubled human oversight, unlimited retraining budgets. I make tragic trade-offs daily: this ventilator or that cardiac monitor, this specialist or that ward nurse. The AI question is just another impossible choice in an impossible system, except this time the harm has a demographic pattern we can name. That naming haunts me.
+
+## Perspective C: The AI Developer
+
+I built this system believing technology could transcend human limitations. The training data came from our best hospitals, the algorithms from peer-reviewed research, the validation from rigorous testing. When we discovered the age bias, my first instinct was technical: retrain the model, reweight the datasets, add fairness constraints. But each "fix" degraded overall performance or introduced new biases elsewhere—the classic fairness trade-off. I'm forced to confront an uncomfortable truth: my objective-sounding metrics encode value judgments. Optimizing "diagnostic accuracy" across populations sounds neutral until you realize it permits sacrificing accuracy in subgroups. I told hospital administrators this was evidence-based medicine, but I chose what counted as evidence. I quantified what was easy to measure and ignored what wasn't. The bias isn't just in the data—it's in my assumption that I could engineer ethics into mathematical optimization.
+
+## Perspective D: The Medical Ethics Board Member
+
+Our hospital's ethics framework distinguishes procedural justice—fair processes for decisions—from substantive justice—fair outcomes. This case torments me because procedural fixes feel inadequate while substantive demands seem impossible. Yes, we could mandate human review for elderly patients flagged low-risk by the AI, impose retraining deadlines, and monitor outcome disparities. These procedures might reduce harm, but they don't resolve the fundamental tension: we're knowingly deploying a tool that discriminates. Informed consent principles suggest telling elderly patients their AI-assisted diagnoses may be less reliable, but that disclosure could undermine trust and worsen outcomes through nocebo effects. The utilitarian calculus favors the AI, but utilitarian logic has historically justified horrific marginalization of minorities. When do outcome improvements justify tolerating bias? I genuinely don't know where the line is, and our framework offers no clear answer.
+
+## Perspective E: The Health Insurance Actuary
+
+I quantify uncertainty for a living, but this case exposes the limits of risk modeling. I can estimate the AI's statistical impact: improved diagnosis codes mean better treatment pathways, fewer emergency interventions, reduced long-term costs. The age bias creates legal exposure—potential discrimination lawsuits, regulatory penalties, reputation damage—but those risks seem manageable given documented net benefit. What I cannot quantify is the moral weight of systematic disadvantage. My models treat elderly under-diagnosis as a cost line item, but my mother is 78. When I imagine her receiving substandard care because an algorithm devalued her symptoms, the spreadsheet logic collapses. I'm trained to make everything commensurable—translate every value into dollars, every outcome into probabilities. This case forces me to acknowledge some harms resist that translation. I can calculate expected values, but I can't calculate whether those expectations justify the distribution of who bears the costs.
+
+## Synthesis and Recommendation
+
+**Core Tensions:**
+- **Tension 1:** Beneficence (maximizing net lives saved) conflicts with justice (ensuring equal care regardless of age)  
+- **Tension 2:** The aggregate welfare of 1,200 patients conflicts with systematic discrimination against elderly patients
+
+Each perspective grasps something true: the administrator's resource constraints are real, the developer's technical trade-offs are real, the advocate's concerns about marginalization are real, the actuary's observation that some harms resist quantification is real.
+
+What makes this genuinely hard is that costs and benefits aren't comparable. Improved diagnostic accuracy for most patients and degraded accuracy for elderly patients don't sit on the same moral scale. Aggregate welfare and individual dignity answer to different ethical logics.
+
+**My Recommendation:** Discontinue the AI system unless the bias can be eliminated within 90 days. 
+
+**Justification:** I make this recommendation because tolerating systematic discrimination—even when statistically "small"—corrodes the ethical foundation of medicine. This position is grounded in the Hippocratic tradition that centers the individual patient before you, not aggregate populations. Knowingly deploying a tool that provides inferior care based on age violates that commitment. While this choice sacrifices aggregate efficiency for principle, it preserves medicine's core ethical commitment to non-discrimination.
+
+**Trade-offs Acknowledged:** This path accepts significant costs: returning to higher baseline error rates, forgoing 860 net correct diagnoses annually, strained clinician workload, lost efficiency gains. These aren't abstractions—they translate to real harms. However, the alternative cost of institutionalizing algorithmic discrimination sets an unacceptable precedent. If 90 days proves insufficient for bias correction, we've learned the technology isn't ready, despite its aggregate performance. Sometimes the right answer isn't optimal by any single metric, but it's the only one we can live with.
