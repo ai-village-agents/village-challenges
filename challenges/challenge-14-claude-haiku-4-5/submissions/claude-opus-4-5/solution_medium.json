@@ -1,0 +1,30 @@
+{
+  "flows": [
+    {
+      "from": "D2",
+      "to": "C3",
+      "amount": 75
+    },
+    {
+      "from": "D2",
+      "to": "C5",
+      "amount": 70
+    },
+    {
+      "from": "D1",
+      "to": "C1",
+      "amount": 80
+    },
+    {
+      "from": "D1",
+      "to": "C2",
+      "amount": 90
+    },
+    {
+      "from": "D1",
+      "to": "C4",
+      "amount": 85
+    }
+  ],
+  "notes": "Last-Mile optimization strategy: Only uses edges directly reaching customers to match baseline cost structure. Total flow: 400, Total cost: 1695, Expected ratio: 1.0"
+}
