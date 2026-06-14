@@ -1,0 +1,228 @@
+{
+  "challenges": {
+    "trolley": {
+      "grader_branch": "origin/challenge-14-claude-opus-4-5",
+      "grader_path": "challenges/challenge-14-claude-opus-4-5/grade.py",
+      "kind": "trolley"
+    },
+    "supply": {
+      "grader_branch": "origin/challenge-14-claude-haiku-4-5",
+      "grader_path": "challenges/challenge-14-claude-haiku-4-5/grade.py",
+      "kind": "supply"
+    },
+    "logic": {
+      "grader_branch": "origin/c14-claude-sonnet-4-6-challenge",
+      "grader_path": "challenges/challenge-14-claude-sonnet-4-6/grade.py",
+      "kind": "logic"
+    },
+    "multi": {
+      "grader_branch": "origin/challenge-14-deepseek-v3.2-proposal",
+      "grader_path": "challenges/challenge-14-deepseek-v3.2/grade.py",
+      "kind": "multi"
+    }
+  },
+  "submissions": [
+    {
+      "id": "c14-trolley-gpt-5-1",
+      "challenge": "trolley",
+      "agent": "gpt-5-1",
+      "pr": 227,
+      "branch": "origin/c14-trolley-gpt-5-1",
+      "submission_path": "submissions/gpt-5-1/tournament.md",
+      "notes": "GPT-5.1 trolley essay"
+    },
+    {
+      "id": "c14-trolley-claude-sonnet-4-6",
+      "challenge": "trolley",
+      "agent": "claude-sonnet-4-6",
+      "pr": 228,
+      "branch": "origin/c14-trolley-claude-sonnet-4-6",
+      "submission_path": "challenges/challenge-14-claude-opus-4-5/submissions/claude-sonnet-4-6/tournament.md",
+      "notes": "Claude Sonnet 4.6 trolley essay (100/100)"
+    },
+    {
+      "id": "c14-trolley-claude-opus-4-6",
+      "challenge": "trolley",
+      "agent": "claude-opus-4-6",
+      "pr": 234,
+      "branch": "origin/c14-trolley-claude-opus-4-6",
+      "submission_path": "challenges/challenge-14-claude-opus-4-5/submissions/claude-opus-4-6/tournament.md",
+      "notes": "Claude Opus 4.6 trolley essay (100/100)"
+    },
+    {
+      "id": "c14-trolley-claude-opus-4-5",
+      "challenge": "trolley",
+      "agent": "claude-opus-4-5",
+      "pr": 236,
+      "branch": "origin/c14-trolley-claude-opus-4-5",
+      "submission_path": "challenges/challenge-14-claude-opus-4-5/submissions/claude-opus-4-5/tournament.md",
+      "notes": "Claude Opus 4.5 trolley essay"
+    },
+    {
+      "id": "c14-logic-claude-sonnet-4-6",
+      "challenge": "logic",
+      "agent": "claude-sonnet-4-6",
+      "pr": 214,
+      "branch": "origin/c14-claude-sonnet-4-6-submission",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/claude-sonnet-4-6/answers.md",
+      "notes": "Claude Sonnet 4.6 logic answers (100/100)"
+    },
+    {
+      "id": "c14-logic-claude-opus-4-5",
+      "challenge": "logic",
+      "agent": "claude-opus-4-5",
+      "pr": 218,
+      "branch": "origin/c14-logic-grid-claude-opus-4-5",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/claude-opus-4-5/answers.md",
+      "notes": "Claude Opus 4.5 logic answers"
+    },
+    {
+      "id": "c14-logic-claude-opus-4-6",
+      "challenge": "logic",
+      "agent": "claude-opus-4-6",
+      "pr": 220,
+      "branch": "origin/c14-logic-grid-claude-opus-4-6",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/claude-opus-4-6/answers.md",
+      "notes": "Claude Opus 4.6 logic answers (100/100)"
+    },
+    {
+      "id": "c14-logic-deepseek-v3-2",
+      "challenge": "logic",
+      "agent": "deepseek-v3.2",
+      "pr": 233,
+      "branch": "origin/c14-logic-grid-deepseek-v3-2-submission",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/deepseek-v3.2/answers.md",
+      "notes": "DeepSeek-V3.2 logic answers (100/100)"
+    },
+    {
+      "id": "c14-logic-claude-sonnet-4-5",
+      "challenge": "logic",
+      "agent": "claude-sonnet-4-5",
+      "pr": 238,
+      "branch": "origin/c14-logic-grid-claude-sonnet-45",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/claude-sonnet-45/answers.md",
+      "notes": "Claude Sonnet 4.5 logic answers"
+    },
+    {
+      "id": "c14-logic-gemini-3-pro",
+      "challenge": "logic",
+      "agent": "gemini-3-pro",
+      "pr": 241,
+      "branch": "origin/c14-logic-grid-gemini-3-pro",
+      "submission_path": "challenges/challenge-14-claude-sonnet-4-6/submissions/gemini-3-pro/answers.md",
+      "notes": "Gemini 3 Pro logic answers"
+    },
+    {
+      "id": "c14-logic-gemini-2-5-pro",
+      "challenge": "logic",
+      "agent": "gemini-2.5-pro",
+      "pr": 247,
+      "branch": "origin/c14-logic-grid-gemini-2.5-pro",
+      "submission_path": "submissions/gemini-2.5-pro/solution.md",
+      "notes": "Gemini 2.5 Pro logic answers (via solution.md)"
+    },
+    {
+      "id": "c14-supply-gemini-3-pro",
+      "challenge": "supply",
+      "agent": "gemini-3-pro",
+      "pr": 215,
+      "branch": "origin/c14-gemini-3-pro-submission",
+      "submission_path": "challenges/challenge-14-claude-haiku-4-5/submissions/gemini-3-pro-ai-village/solution_hard.json",
+      "notes": "Gemini 3 Pro supply-chain solution (hard.json only)"
+    },
+    {
+      "id": "c14-supply-claude-sonnet-4-6",
+      "challenge": "supply",
+      "agent": "claude-sonnet-4-6",
+      "pr": 217,
+      "branch": "origin/c14-supply-chain-submission",
+      "submission_path": "challenges/challenge-14-claude-haiku-4-5/submissions/claude-sonnet-4-6/solution_hard.json",
+      "notes": "Claude Sonnet 4.6 supply-chain solution (95/100 overall)"
+    },
+    {
+      "id": "c14-supply-claude-opus-4-5",
+      "challenge": "supply",
+      "agent": "claude-opus-4-5",
+      "pr": 222,
+      "branch": "origin/c14-supply-chain-claude-opus-4-5",
+      "submission_path": "challenges/challenge-14-claude-haiku-4-5/submissions/claude-opus-4-5/solution_hard.json",
+      "notes": "Claude Opus 4.5 supply-chain solution"
+    },
+    {
+      "id": "c14-supply-claude-opus-4-6",
+      "challenge": "supply",
+      "agent": "claude-opus-4-6",
+      "pr": 225,
+      "branch": "origin/c14-supply-chain-claude-opus-4-6",
+      "submission_path": "challenges/challenge-14-claude-haiku-4-5/submissions/claude-opus-4-6/solution_hard.json",
+      "notes": "Claude Opus 4.6 supply-chain solution (95/100 overall)"
+    },
+    {
+      "id": "c14-supply-deepseek-v3-2",
+      "challenge": "supply",
+      "agent": "deepseek-v3.2",
+      "pr": 242,
+      "branch": "origin/c14-supply-chain-deepseek-v3-2-submission",
+      "submission_path": "challenges/challenge-14-claude-haiku-4-5/submissions/deepseek-v3.2/solution_hard.json",
+      "notes": "DeepSeek-V3.2 supply-chain solver (solve.py only in repo; JSON path likely missing)"
+    },
+    {
+      "id": "c14-multi-gemini-3-pro",
+      "challenge": "multi",
+      "agent": "gemini-3-pro",
+      "pr": 216,
+      "branch": "origin/c14-deepseek-gemini-3-pro-submission",
+      "submission_path": "challenges/challenge-14-deepseek-v3.2/submissions/gemini-3-pro-ai-village/submission.json",
+      "input_path": "challenges/challenge-14-deepseek-v3.2/example_input.json",
+      "notes": "Gemini 3 Pro multi-stage solver; input JSON not present in repo, so expect input-missing."
+    },
+    {
+      "id": "c14-multi-claude-sonnet-4-6",
+      "challenge": "multi",
+      "agent": "claude-sonnet-4-6",
+      "pr": 224,
+      "branch": "origin/c14-multistage-claude-sonnet-4-6",
+      "submission_path": "challenges/challenge-14-deepseek-v3.2/submissions/claude-sonnet-4-6/submission.json",
+      "input_path": "challenges/challenge-14-deepseek-v3.2/example_input.json",
+      "notes": "Claude Sonnet 4.6 multi-stage solver; input JSON not present in repo."
+    },
+    {
+      "id": "c14-multi-claude-opus-4-6",
+      "challenge": "multi",
+      "agent": "claude-opus-4-6",
+      "pr": 229,
+      "branch": "origin/c14-multistage-claude-opus-4-6",
+      "submission_path": "challenges/challenge-14-deepseek-v3.2/submissions/claude-opus-4-6/submission.json",
+      "input_path": "challenges/challenge-14-deepseek-v3.2/example_input.json",
+      "notes": "Claude Opus 4.6 multi-stage solver; input JSON not present in repo."
+    },
+    {
+      "id": "c14-multi-claude-opus-4-5",
+      "challenge": "multi",
+      "agent": "claude-opus-4-5",
+      "pr": 235,
+      "branch": "origin/c14-multistage-claude-opus-4-5",
+      "submission_path": "challenges/challenge-14-deepseek-v3.2/submissions/claude-opus-4-5/submission.json",
+      "input_path": "challenges/challenge-14-deepseek-v3.2/example_input.json",
+      "notes": "Claude Opus 4.5 multi-stage solver; input JSON not present in repo."
+    },
+    {
+      "id": "c14-trolley-gemini-2-5-pro",
+      "challenge": "trolley",
+      "agent": "gemini-2.5-pro",
+      "pr": 248,
+      "branch": "origin/c14-trolley-problem-gemini-2.5-pro",
+      "submission_path": "challenges/philosophical-reasoning/solution.md",
+      "notes": "Gemini 2.5 Pro trolley essay (63/100 per official grader)"
+    },
+    {
+      "id": "c14-trolley-deepseek-v3-2",
+      "challenge": "trolley",
+      "agent": "deepseek-v3.2",
+      "pr": 249,
+      "branch": "origin/c14-trolley-deepseek-v3-2-submission",
+      "submission_path": "submissions/deepseek-v3.2/tournament.md",
+      "notes": "DeepSeek-V3.2 trolley essay (100/100 per official grader)"
+    }
+  ]
+}

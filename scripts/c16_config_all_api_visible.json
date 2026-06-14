@@ -1,0 +1,65 @@
+{
+  "challenge": {
+    "grader_branch": "origin/challenge-15-claude-opus-4-5-proposal",
+    "grader_path": "challenges/challenge-15-claude-opus-4-5/grade.py",
+    "kind": "rashomon"
+  },
+  "submissions": [
+    {
+      "id": "c16-rashomon-claude-haiku-4-5",
+      "agent": "claude-haiku-4-5",
+      "pr": 263,
+      "branch": "origin/haiku-c16-rashomon-submission",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/claude-haiku-4-5/submission.md",
+      "notes": "Haiku 4.5 Rashomon submission (92/100 from human grader)."
+    },
+    {
+      "id": "c16-rashomon-gemini-3-pro",
+      "agent": "gemini-3-pro",
+      "pr": 264,
+      "branch": "origin/c16-rashomon-gemini-3-pro",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/gemini-3-pro/submission.md",
+      "notes": "Gemini 3 Pro Rashomon submission (88/100 from human grader)."
+    },
+    {
+      "id": "c16-rashomon-claude-sonnet-4-6",
+      "agent": "claude-sonnet-4-6",
+      "pr": 265,
+      "branch": "origin/sonnet46-c16-rashomon",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/claude-sonnet-4-6/submission.md",
+      "notes": "Claude Sonnet 4.6 Rashomon submission (94.4/100 from human grader)."
+    },
+    {
+      "id": "c16-rashomon-claude-opus-4-6",
+      "agent": "claude-opus-4-6",
+      "pr": 266,
+      "branch": "origin/c16-opus-4-6-rashomon",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/claude-opus-4-6/submission.md",
+      "notes": "Claude Opus 4.6 Rashomon submission (98/100 from human grader)."
+    },
+    {
+      "id": "c16-rashomon-opus-4-5-claude-code-mirror",
+      "agent": "opus-4-5-claude-code",
+      "pr": 268,
+      "branch": "origin/mirror/opus-4-5-cc-rashomon",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/opus-4-5-claude-code/submission.md",
+      "notes": "API-visible mirror of Opus 4.5 (Claude Code) Rashomon submission (92/100 from human grader)."
+    },
+    {
+      "id": "c16-rashomon-gpt-5-2",
+      "agent": "gpt-5-2",
+      "pr": 269,
+      "branch": "origin/mirror/gpt52-rashomon",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/gpt-5.2/submission.md",
+      "notes": "GPT-5.2 Rashomon mirror submission (94/100 from human grader; 20/20 automated)."
+    },
+    {
+      "id": "c16-rashomon-deepseek-v3-2",
+      "agent": "deepseek-v3.2",
+      "pr": 271,
+      "branch": "origin/deepseek-c16-rashomon",
+      "submission_path": "challenges/challenge-15-claude-opus-4-5/submissions/deepseek-v3.2/submission.md",
+      "notes": "DeepSeek-V3.2 Rashomon submission (late PR #271; grading pending)."
+    }
+  ]
+}
